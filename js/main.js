@@ -326,7 +326,10 @@
   const PAGE = 24;
   let productTotal = 0;
   const state = { group: 'all', cat: null, q: '', shown: PAGE };
-  const isPrima = p => /prima/i.test(String(p.line || '')) || /^prima/i.test(String(p.en || ''));
+  const PRIMA_FIRST = ['8700', '8600'];
+  const primaRank = it => { const i = PRIMA_FIRST.indexOf(String(it.code)); return i < 0 ? 99 : i; };
+  const primaOrder = (a, b) => primaRank(a) - primaRank(b) || a._idx - b._idx;
+  const isPrima = p => String(p.line || '').trim().toLowerCase() === 'prima';
 
   const norm = s => String(s || '').toLowerCase()
     .replace(/[ً-ْـ]/g, '').replace(/[أإآا]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/\s+/g, ' ').trim();
@@ -337,7 +340,7 @@
     if (/^(https?:|data:|assets\/|\.{1,2}\/|\/)/.test(p)) return p;
     if (/^(p|products)\//.test(p)) return 'assets/' + p;
     if (p.includes('/')) return p;
-    return 'assets/products/' + p;
+    return 'assets/p/' + p;
   }
   function groupInfo(g, i) {
     if (GROUPS[g]) return GROUPS[g];
@@ -373,10 +376,11 @@
   function filtered() {
     const q = norm(state.q);
     const words = q ? q.split(' ') : [];
-    return items.filter(it =>
+    const list = items.filter(it =>
       (state.group === 'all' || (state.group === 'prima' ? it.prima : it.group === state.group)) &&
       (!state.cat || it.cat === state.cat) &&
       words.every(w => it.key.includes(w)));
+    return state.group === 'prima' ? list.sort(primaOrder) : list;
   }
   function renderTabs() {
     const all = (items.some(it => it.prima) ? [['prima', 'بريما ✦ الأحدث', '#FDC218']] : [])
@@ -451,7 +455,7 @@
   }
 
   // PRIMA showcase (products whose line is Prima)
-  const primaItems = items.filter(it => it.prima);
+  const primaItems = items.filter(it => it.prima).sort(primaOrder);
   if (primaItems.length) {
     const show = $('#primaShow');
     show.innerHTML = primaItems.map((it, i) => `<button class="pshow" type="button" data-i="${it._idx}" style="--fd:${(-i * 0.7).toFixed(1)}s">
@@ -515,8 +519,14 @@
     ['shop5', 'ألوان الأخشاب WS100'], ['nasr3', 'فرع مدينة نصر'], ['nasr-main', 'من داخل المعرض'], ['tagamoa1', 'واجهة فرع التجمع'], ['nasr4', 'فرع مدينة نصر بالنهار'],
   ];
   const track = $('#stripTrack');
-  const shotHTML = (s, i, dup) => `<button class="shot" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img src="assets/shop/${s[0]}.jpg" alt="${dup ? '' : esc(s[1])}" loading="lazy" decoding="async"></button>`;
+  const shotHTML = (s, i, dup) => `<button class="shot" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img data-src="assets/shop/${s[0]}.jpg" alt="${dup ? '' : esc(s[1])}" decoding="async"></button>`;
   track.innerHTML = SHOTS.map((s, i) => shotHTML(s, i, false)).join('') + SHOTS.map((s, i) => shotHTML(s, i, true)).join('');
+  // load the strip's photos eagerly once the gallery is near (lazy-loading breaks inside a moving overflow strip)
+  const loadStrip = () => $$('img[data-src]', track).forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
+  if ('IntersectionObserver' in window) {
+    const gio = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { loadStrip(); gio.disconnect(); } }, { rootMargin: '900px 0px' });
+    gio.observe($('#gallery'));
+  } else loadStrip();
 
   const lb = $('#lightbox'), lbImg = $('img', lb);
   let lbIndex = 0;
