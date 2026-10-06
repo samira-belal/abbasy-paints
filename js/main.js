@@ -568,7 +568,7 @@
     ['shop5', 'ألوان الأخشاب WS100'], ['nasr3', 'فرع مدينة نصر'], ['nasr-main', 'من داخل المعرض'], ['tagamoa1', 'واجهة فرع التجمع'], ['nasr4', 'فرع مدينة نصر بالنهار'],
   ];
   const track = $('#stripTrack');
-  const shotHTML = (s, i, dup) => `<button class="shot" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img data-src="assets/shop/${s[0]}.jpg" alt="${dup ? '' : esc(s[1])}" decoding="async"></button>`;
+  const shotHTML = (s, i, dup) => `<button class="shot" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img data-src="assets/shop/${s[0]}.webp" alt="${dup ? '' : esc(s[1])}" decoding="async"></button>`;
   track.innerHTML = SHOTS.map((s, i) => shotHTML(s, i, false)).join('') + SHOTS.map((s, i) => shotHTML(s, i, true)).join('');
   // load the strip's photos eagerly once the gallery is near (lazy-loading breaks inside a moving overflow strip)
   const loadStrip = () => $$('img[data-src]', track).forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
@@ -581,7 +581,7 @@
   let lbIndex = 0;
   function showShot(i) {
     lbIndex = (i + SHOTS.length) % SHOTS.length;
-    lbImg.src = `assets/shop/${SHOTS[lbIndex][0]}.jpg`; lbImg.alt = SHOTS[lbIndex][1];
+    lbImg.src = `assets/shop/${SHOTS[lbIndex][0]}.webp`; lbImg.alt = SHOTS[lbIndex][1];
   }
   function openLb(i) { lastFocus = document.activeElement; showShot(i); lb.hidden = false; document.body.style.overflow = 'hidden'; $('.lb-close', lb).focus(); }
   function closeLb() { lb.hidden = true; document.body.style.overflow = ''; if (lastFocus) lastFocus.focus({ preventScroll: true }); }
