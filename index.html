@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>العباسي للدهانات | وكيل معتمد KAPCI</title>
+  <meta name="description" content="العباسي للدهانات — وكيل معتمد لدهانات كابسي منذ 2001. دهانات سيارات، مباني، أخشاب، أحبار وريزين. فرعين: مدينة نصر والتجمع الخامس.">
+  <meta name="theme-color" content="#070a18">
+  <link rel="icon" href="assets/kapci-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Lalezar&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- the paint -->
+  <canvas id="fluid" aria-hidden="true"></canvas>
+  <div class="blobs" aria-hidden="true">
+    <i class="b b1"></i><i class="b b2"></i><i class="b b3"></i><i class="b b4"></i><i class="b b5"></i><i class="b bf"></i>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- preloader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-word" data-text="العباسي">العباسي</div>
+    <div class="loader-drips"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+
+  <!-- nav -->
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="العباسي للدهانات - الرئيسية">
+      <img src="assets/kapci-mark.png" alt="" width="36" height="34">
+      <span><b>العباسي</b><small>للدهانات</small></span>
+    </a>
+    <nav class="links" id="links" aria-label="القائمة الرئيسية">
+      <a href="#prima" class="nav-prima">بريما <em>جديد</em></a>
+      <a href="#about">عن العباسي</a>
+      <a href="#worlds">عوالم كابسي</a>
+      <a href="#lab">معمل الألوان</a>
+      <a href="#products">المنتجات</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#branches">الفروع</a>
+    </nav>
+    <a class="btn btn-call" href="tel:+20224090094"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg><span>اتصل بينا</span></a>
+    <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="links"><i></i><i></i><i></i></button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow reveal"><span class="pulse"></span>وكيل معتمد <b>KAPCI</b> منذ 2001</p>
+        <h1 class="hero-title reveal" style="--d:.1s"><span class="ink">العباسي</span><span class="ink ink-2">للدهانات</span></h1>
+        <p class="hero-en reveal" style="--d:.2s">AL-ABBASY PAINTS · AUTHORIZED KAPCI DEALER</p>
+        <p class="hero-line reveal" style="--d:.3s">كل الألوان اللي بتحلم بيها.. <b>نعملها</b></p>
+        <div class="hero-cta reveal" style="--d:.4s">
+          <a class="btn btn-paint" href="#products"><span>اكتشف المنتجات</span></a>
+          <a class="btn btn-ghost btn-prima" href="#prima"><span>اكتشف نظام بريما</span></a>
+        </div>
+        <p class="hint reveal" style="--d:.6s"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a6 6 0 0 0-6 6v8a6 6 0 0 0 12 0V8a6 6 0 0 0-6-6zm0 2a4 4 0 0 1 4 4v8a4 4 0 0 1-8 0V8a4 4 0 0 1 4-4zm0 2a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1z"/></svg><span class="hint-text">حرّك الماوس وارسم بالألوان</span></p>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="انزل لتحت"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-label="KAPCI • LATICO • REFINIX">
+      <div class="marquee-band band-a"><div class="marquee-track" data-marquee>
+        <span>KAPCI</span><i></i><span>LATICO</span><i></i><span>REFINIX</span><i></i><span>دهانات سيارات</span><i></i><span>مباني</span><i></i><span>أخشاب</span><i></i><span>أحبار</span><i></i><span>ريزين</span><i></i>
+      </div></div>
+      <div class="marquee-band band-b" aria-hidden="true"><div class="marquee-track rev" data-marquee>
+        <span>كل الألوان</span><i></i><span>EVERY COLOUR</span><i></i><span>العباسي للدهانات</span><i></i><span>منذ 2001</span><i></i>
+      </div></div>
+    </div>
+
+
+    <!-- PRIMA — the star -->
+    <section class="section prima" id="prima">
+      <div class="prima-aura" aria-hidden="true"></div>
+      <div class="container prima-grid">
+        <div class="prima-copy reveal">
+          <p class="prima-badges"><span class="badge-new">الأحدث · NEW</span><span class="badge-year">من 2022</span></p>
+          <h2 class="prima-title"><span class="ink">نظام بريما</span><small>PRIMA by KAPCI</small></h2>
+          <p class="lead">أحدث نظام من كابسي لخلط ألوان دهانات السيارات. أي لون تحلم بيه — بيطلع مظبوط زي الأصلي.</p>
+          <div class="prima-facts">
+            <article class="pfact glass" data-tilt>
+              <b class="pfact-code">8700</b>
+              <h3>Primabase</h3>
+              <p>بيز كوت أحادي 1K</p>
+              <p class="pfact-num"><span data-count="67">67</span><small>لون أساسي</small></p>
+            </article>
+            <article class="pfact glass" data-tilt>
+              <b class="pfact-code">8600</b>
+              <h3>Primacryl</h3>
+              <p>أكريليك بولي يوريثان ثنائي 2K</p>
+              <p class="pfact-num"><span data-count="19">19</span><small>لون أساسي</small></p>
+            </article>
+          </div>
+          <ul class="prima-tools">
+            <li><i style="--c:#43B6D9"></i>جهاز قياس اللون <b>Kapci Blink</b> (سبكتروفوتوميتر)</li>
+            <li><i style="--c:#FDC218"></i>برنامج ألوان كابسي</li>
+            <li><i style="--c:#D7232F"></i>كتالوجات ومراوح الألوان</li>
+            <li><i style="--c:#3E9B47"></i>صناديق وماكينات الخلط</li>
+          </ul>
+          <div class="hero-cta prima-cta">
+            <a class="btn btn-paint" href="#products" data-prima-all><span>كل منتجات بريما</span></a>
+            <a class="btn btn-ghost" href="#lab"><span>اخلط لونك في المعمل</span></a>
+          </div>
+        </div>
+        <div class="prima-stage reveal" style="--d:.15s" aria-hidden="true">
+          <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+          <span class="drop d1"></span><span class="drop d2"></span><span class="drop d3"></span><span class="drop d4"></span><span class="drop d5"></span>
+          <img class="tin tin-a" id="primaTinA" src="assets/p/8700.webp" alt="" data-hide-on-error>
+          <img class="tin tin-b" id="primaTinB" src="assets/p/8600.webp" alt="" data-hide-on-error>
+          <span class="stage-label l-a">8700</span><span class="stage-label l-b">8600</span>
+        </div>
+      </div>
+      <div class="container prima-show-wrap" id="primaShowWrap" hidden>
+        <p class="kicker">عيلة بريما كاملة</p>
+        <div class="prima-show" id="primaShow"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-text glass reveal">
+          <p class="kicker">نبذة عنّا</p>
+          <h2 class="title">من <span class="grad">2001</span> واحنا بنلوّن مصر</h2>
+          <p>العباسي للدهانات وكيل معتمد لـ <b>كابسي للدهانات</b>، والمقر الرئيسي في مدينة نصر. عندنا كل منتجات كابسي بكل علاماتها التجارية: <b>KAPCI</b> و<b>LATICO</b> و<b>REFINIX</b>.</p>
+          <p>دهانات سيارات، دهانات مباني وديكور، دهانات أخشاب، أحبار وريزين.. أي نوع دهان، وأي لون في دماغك، نقدر نعمله.</p>
+          <p class="sign">بلال عباس <small>BELAL ABBAS · المدير</small></p>
+        </div>
+        <figure class="about-photo reveal" style="--d:.15s">
+          <div class="parallax" data-parallax="0.12"><img src="assets/shop/nasr-main.jpg" alt="من داخل معرض العباسي للدهانات بمدينة نصر" loading="lazy"></div>
+          <figcaption>معرض مدينة نصر</figcaption>
+        </figure>
+      </div>
+      <div class="container stats">
+        <div class="stat glass reveal"><b data-count="2001" data-from="1990">2001</b><span>سنة التأسيس</span></div>
+        <div class="stat glass reveal" style="--d:.08s"><b data-count="years" data-prefix="+">+25</b><span>سنة خبرة</span></div>
+        <div class="stat glass reveal" style="--d:.16s"><b data-count="2">2</b><span>فرع</span></div>
+        <div class="stat glass reveal" style="--d:.24s"><b class="inf">∞</b><span>لون</span></div>
+        <div class="stat glass reveal stat-products" style="--d:.32s" hidden><b data-count="products" data-prefix="+">0</b><span>منتج كابسي</span></div>
+      </div>
+      <div class="container services">
+        <article class="service reveal" data-tilt style="--c:#F28C28">
+          <img src="assets/shop/nasr1.jpg" alt="عربيات التوصيل الخاصة بالعباسي للدهانات" loading="lazy">
+          <div class="service-body"><span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5h11v9h1.5V8H19l3 4v4h-2a2.5 2.5 0 0 1-5 0H9a2.5 2.5 0 0 1-5 0H3V5zm14 4.5V12h3l-1.8-2.5H17zM6.5 15.3a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zm11 0a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></span>
+            <h3>خدمة توصيل</h3><p>طلبك يوصل لحد موقعك بعربياتنا.</p></div>
+        </article>
+        <article class="service reveal" data-tilt style="--c:#43B6D9;--d:.12s">
+          <img src="assets/shop/shop1.jpg" alt="مخزون دهانات كابسي جاهز في مخازن العباسي" loading="lazy">
+          <div class="service-body"><span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 2 7v15h4V11h12v11h4V7L12 2zM8 13v3h3v-3H8zm5 0v3h3v-3h-3zm-5 5v4h3v-4H8zm5 0v4h3v-4h-3z"/></svg></span>
+            <h3>مخازن ضخمة</h3><p>مخزون جاهز دايماً.. اللي محتاجه موجود.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORLDS -->
+    <section class="section worlds" id="worlds">
+      <div class="container">
+        <div class="head reveal">
+          <p class="kicker">عوالم كابسي</p>
+          <h2 class="title">دهان لكل <span class="grad">سطح</span></h2>
+          <p class="lead">اختار العالم اللي يخصّك وشوف المنتجات بتاعته.</p>
+        </div>
+        <div class="world-grid">
+          <a class="world reveal" href="#products" data-world="car" data-tilt style="--c:#D7232F">
+            <img src="assets/worlds/car.jpg" alt="دهانات السيارات من كابسي" loading="lazy">
+            <div class="world-body"><small>Car Refinish</small><h3>دهانات السيارات</h3><p>منتجات متخصصة وعالية الجودة للسيارات، ونظام بريما للألوان.</p><span class="more">تصفّح المنتجات</span></div>
+          </a>
+          <a class="world reveal" href="#products" data-world="building" data-tilt style="--c:#7B3FBF;--d:.08s">
+            <img src="assets/worlds/building.jpg" alt="دهانات المباني والديكور" loading="lazy">
+            <div class="world-body"><small>Building &amp; Decor</small><h3>دهانات المباني</h3><p>دهانات حوائط وديكورات LATICO للداخل والخارج.</p><span class="more">تصفّح المنتجات</span></div>
+          </a>
+          <a class="world reveal" href="#products" data-world="wood" data-tilt style="--c:#F28C28;--d:.16s">
+            <img src="assets/worlds/wood.jpg" alt="دهانات الأخشاب" loading="lazy">
+            <div class="world-body"><small>Wood Coating</small><h3>دهانات الأخشاب</h3><p>ورنيشات وسيلرات وألوان للخشب والموبيليا.</p><span class="more">تصفّح المنتجات</span></div>
+          </a>
+          <a class="world reveal" href="#products" data-world="inks" data-tilt style="--c:#43B6D9;--d:.08s">
+            <img src="assets/worlds/inks.jpg" alt="الأحبار" loading="lazy">
+            <div class="world-body"><small>Inks</small><h3>الأحبار</h3><p>أحبار كابسي للطباعة والاستخدامات الصناعية.</p><span class="more">تصفّح المنتجات</span></div>
+          </a>
+          <a class="world reveal" href="#products" data-world="resins" data-tilt style="--c:#3E9B47;--d:.16s">
+            <img src="assets/worlds/resins.jpg" alt="الريزين" loading="lazy">
+            <div class="world-body"><small>Resins</small><h3>الريزين</h3><p>راتنجات كابسي للصناعة والتشطيبات.</p><span class="more">تصفّح المنتجات</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLOUR LAB -->
+    <section class="section lab" id="lab">
+      <div class="container lab-grid">
+        <div class="lab-stage reveal">
+          <svg class="blob" id="blob" viewBox="0 0 400 400" role="img" aria-label="اللون المختار">
+            <defs>
+              <radialGradient id="blobFill" cx="38%" cy="32%" r="75%">
+                <stop offset="0" id="bs0"/>
+                <stop offset=".55" id="bs1"/>
+                <stop offset="1" id="bs2"/>
+              </radialGradient>
+              <radialGradient id="blobShine" cx="35%" cy="28%" r="30%">
+                <stop offset="0" stop-color="#fff" stop-opacity=".75"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="blobGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <path id="blobGlowPath" fill="url(#blobFill)" opacity=".55" filter="url(#blobGlow)"/>
+            <path id="blobPath" fill="url(#blobFill)"/>
+            <path id="blobShinePath" fill="url(#blobShine)"/>
+          </svg>
+          <div class="lab-code"><b id="hexOut">#D7232F</b><span id="rgbOut">RGB 215, 35, 47</span></div>
+        </div>
+        <div class="lab-panel glass reveal" style="--d:.12s">
+          <p class="kicker">معمل الألوان</p>
+          <h2 class="title">اخلط <span class="grad">لونك</span> بإيدك</h2>
+          <p class="lead">حرّك المؤشرات واختار درجتك، ودوس «رشّ اللون» وشوفه بيتحرك على الشاشة. ولما تلاقي لونك، ابعته لنا على واتساب — وبنظام <a class="inline-link" href="#prima">بريما</a> نطلعهولك بالظبط.</p>
+          <label class="slider"><span>اللون</span><input type="range" id="hue" min="0" max="360" value="356" aria-label="درجة اللون"></label>
+          <label class="slider"><span>التشبّع</span><input type="range" id="sat" min="0" max="100" value="72" aria-label="التشبع"></label>
+          <label class="slider"><span>الإضاءة</span><input type="range" id="lit" min="8" max="92" value="49" aria-label="الإضاءة"></label>
+          <div class="swatches" id="swatches" role="list"></div>
+          <div class="lab-actions">
+            <button class="btn btn-paint" id="splash" type="button"><span>رشّ اللون</span></button>
+            <a class="btn btn-ghost" id="askColor" data-wa href="https://wa.me/201005645742" target="_blank" rel="noopener"><span>اطلب اللون ده</span></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="head reveal">
+          <p class="kicker">منتجات كابسي</p>
+          <h2 class="title">كل المنتجات <span class="grad">في مكان واحد</span></h2>
+          <p class="lead">كل منتجات كابسي متوفرة عندنا. دوّر بالاسم أو الكود، واسألنا عن أي منتج على واتساب.</p>
+        </div>
+        <div class="prod-tools glass reveal">
+          <div class="tabs" id="groupTabs" role="tablist" aria-label="أقسام المنتجات"></div>
+          <div class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"/></svg>
+            <input type="search" id="prodSearch" placeholder="دوّر باسم المنتج أو الكود…" aria-label="بحث في المنتجات">
+          </div>
+          <div class="chips" id="catChips"></div>
+        </div>
+        <p class="prod-count" id="prodCount" aria-live="polite"></p>
+        <div class="prod-grid" id="prodGrid"></div>
+        <div class="prod-more"><button class="btn btn-ghost" id="prodMore" type="button" hidden><span>عرض المزيد</span></button></div>
+      </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section class="section brands" id="brands">
+      <div class="container">
+        <div class="head reveal">
+          <p class="kicker">العلامات التجارية</p>
+          <h2 class="title">تلات أسماء.. <span class="grad">ثقة واحدة</span></h2>
+        </div>
+        <div class="brand-grid">
+          <figure class="brand-tile reveal" data-tilt><img src="assets/brand-kapci.jpg" alt="KAPCI" loading="lazy"><figcaption>KAPCI</figcaption></figure>
+          <figure class="brand-tile reveal" data-tilt style="--d:.1s"><img src="assets/brand-latico.jpg" alt="LATICO" loading="lazy"><figcaption>LATICO</figcaption></figure>
+          <figure class="brand-tile reveal" data-tilt style="--d:.2s"><img src="assets/brand-refinix.jpg" alt="REFINIX" loading="lazy"><figcaption>REFINIX</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+      <div class="container head reveal">
+        <p class="kicker">من جوّه المعرض</p>
+        <h2 class="title">تعالى <span class="grad">شوف بنفسك</span></h2>
+      </div>
+      <div class="strip" id="strip">
+        <div class="strip-track" id="stripTrack"></div>
+      </div>
+    </section>
+
+    <!-- BRANCHES -->
+    <section class="section branches" id="branches">
+      <div class="container">
+        <div class="head reveal">
+          <p class="kicker">فروعنا</p>
+          <h2 class="title">مستنيينك في <span class="grad">فرعين</span></h2>
+        </div>
+        <div class="branch-grid">
+          <article class="branch glass reveal">
+            <div class="branch-photo"><img src="assets/shop/nasr4.jpg" alt="واجهة فرع مدينة نصر" loading="lazy"><span class="tag">المقر الرئيسي</span></div>
+            <div class="branch-body">
+              <h3>مدينة نصر</h3>
+              <p class="addr">الحي العاشر · صقر قريش · بلوك 41 · عمارة 7</p>
+              <div class="branch-actions">
+                <a class="btn btn-small btn-paint" href="tel:+20224090094"><span>اتصال</span></a>
+                <a class="btn btn-small btn-wa" href="https://wa.me/201005645742" target="_blank" rel="noopener"><span>واتساب</span></a>
+                <a class="btn btn-small btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%20%D9%84%D9%84%D8%AF%D9%87%D8%A7%D9%86%D8%A7%D8%AA%D8%8C%20%D8%A8%D9%84%D9%88%D9%83%2041%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%207%20%D8%B5%D9%82%D8%B1%20%D9%82%D8%B1%D9%8A%D8%B4%D8%8C%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%D8%8C%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D9%86%D8%B5%D8%B1%D8%8C%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"><span>الخريطة</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="branch glass reveal" style="--d:.12s">
+            <div class="branch-photo"><img src="assets/shop/tagamoa1.jpg" alt="واجهة فرع التجمع الخامس" loading="lazy"><span class="tag">فرع</span></div>
+            <div class="branch-body">
+              <h3>القاهرة الجديدة</h3>
+              <p class="addr">التجمع الخامس · منطقة الألف مصنع · مصنع 111</p>
+              <div class="branch-actions">
+                <a class="btn btn-small btn-paint" href="tel:+201098559118"><span>اتصال</span></a>
+                <a class="btn btn-small btn-wa" href="https://wa.me/201098559118" target="_blank" rel="noopener"><span>واتساب</span></a>
+                <a class="btn btn-small btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%20%D9%84%D9%84%D8%AF%D9%87%D8%A7%D9%86%D8%A7%D8%AA%D8%8C%20%D9%85%D8%B5%D9%86%D8%B9%20111%20%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D8%A3%D9%84%D9%81%20%D9%85%D8%B5%D9%86%D8%B9%D8%8C%20%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%8C%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9"><span>الخريطة</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="phones glass reveal">
+          <div class="ph-group"><span>مدينة نصر</span><a href="tel:+20224090094" dir="ltr">02 2409 0094</a><a href="tel:+201005645742" dir="ltr">010 0564 5742</a><em>واتساب</em></div>
+          <div class="ph-group"><span>التجمع الخامس</span><a href="tel:+201098559118" dir="ltr">010 9855 9118</a><em>واتساب</em></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section final" id="contact">
+      <div class="container final-inner reveal">
+        <h2 class="final-title"><span class="ink">عندك لون في دماغك؟</span></h2>
+        <p class="lead">قولّنا عليه.. واحنا نعملهولك.</p>
+        <div class="hero-cta">
+          <a class="btn btn-paint btn-big" data-wa href="https://wa.me/201005645742" target="_blank" rel="noopener"><span>كلّمنا على واتساب</span></a>
+          <a class="btn btn-ghost btn-big" href="tel:+20224090094"><span>اتصل: 02 2409 0094</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand"><img src="assets/kapci-mark.png" alt="" width="36" height="34"><span><b>العباسي</b><small>للدهانات</small></span></div>
+      <p>وكيل معتمد كابسي للدهانات · منذ 2001</p>
+      <p class="faddr">مدينة نصر | الحي العاشر | صقر قريش | بلوك 41 | عمارة 7<br>القاهرة الجديدة | التجمع الخامس | منطقة الألف مصنع | مصنع 111</p>
+      <p class="fine">© <span id="year">2026</span> العباسي للدهانات. KAPCI و LATICO و REFINIX علامات تجارية لشركة كابسي.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-wa href="https://wa.me/201005645742" target="_blank" rel="noopener" aria-label="راسلنا على واتساب">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <div class="wa-chooser glass" id="waChooser" role="dialog" aria-label="اختار الفرع" hidden>
+    <p>تكلّم أنهي فرع؟</p>
+    <a class="btn btn-small btn-wa" data-num="201005645742" href="https://wa.me/201005645742" target="_blank" rel="noopener"><span>مدينة نصر (الرئيسي)</span></a>
+    <a class="btn btn-small btn-wa" data-num="201098559118" href="https://wa.me/201098559118" target="_blank" rel="noopener"><span>التجمع الخامس</span></a>
+  </div>
+
+  <!-- lightbox / product dialog -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden>
+    <button class="lb-close" type="button" aria-label="إغلاق">×</button>
+    <button class="lb-nav lb-prev" type="button" aria-label="السابق">‹</button>
+    <img alt="">
+    <button class="lb-nav lb-next" type="button" aria-label="التالي">›</button>
+  </div>
+  <div class="pmodal" id="pmodal" role="dialog" aria-modal="true" aria-labelledby="pmName" hidden>
+    <div class="pm-card glass">
+      <button class="lb-close" type="button" aria-label="إغلاق">×</button>
+      <div class="pm-img"><img id="pmImg" alt=""></div>
+      <div class="pm-body">
+        <p class="kicker" id="pmCat"></p>
+        <h3 id="pmName"></h3>
+        <b class="pm-code" id="pmCode"></b>
+        <p id="pmDesc"></p>
+        <a class="btn btn-wa" id="pmAsk" data-wa target="_blank" rel="noopener" href="https://wa.me/201005645742"><span>اسأل عن المنتج ده</span></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/products.js"></script>
+  <script src="js/fluid.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
