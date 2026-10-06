@@ -551,3 +551,12 @@ main, .footer { position: relative; z-index: 2; }
 .call-row > div { min-width: 0; display: grid; }
 .call-row small { color: var(--muted); font-size: 12px; }
 .call-row b { font-size: 19px; letter-spacing: .04em; font-variant-numeric: tabular-nums; user-select: all; text-align: right; }
+/* FAQ */
+.faq-list { display: grid; gap: 12px; margin-top: 32px; max-width: 900px; }
+.faq-item { padding: 0; border-radius: 18px; overflow: hidden; }
+.faq-item summary { cursor: pointer; list-style: none; padding: 18px 22px; font-weight: 700; font-size: clamp(16px, 1.7vw, 19px); display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; font-size: 26px; line-height: 1; color: var(--muted); transition: transform .25s; flex: none; }
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-item summary:focus-visible { outline: 2px solid currentColor; outline-offset: -4px; }
+.faq-item p { margin: 0; padding: 0 22px 20px; color: var(--muted); line-height: 1.9; }
