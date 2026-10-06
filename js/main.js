@@ -341,6 +341,26 @@
     if (e.target.closest('#waChooser a')) setTimeout(closeChooser, 50);
   });
 
+
+  /* call chooser: shows every number as text + call + copy (tel: links can be blocked inside embedded viewers) */
+  const callBox = $('#callChooser');
+  function closeCall() { if (callBox && !callBox.hidden) callBox.hidden = true; }
+  document.addEventListener('click', e => {
+    if (!callBox) return;
+    const opener = e.target.closest('[data-call]');
+    if (opener) { e.preventDefault(); callBox.hidden = !callBox.hidden; if (!callBox.hidden) $('a', callBox).focus({ preventScroll: true }); return; }
+    const copyBtn = e.target.closest('#callChooser [data-copy]');
+    if (copyBtn) {
+      const num = copyBtn.dataset.copy, label = $('span', copyBtn);
+      const done = () => { label.textContent = 'اتنسخ ✓'; setTimeout(() => { label.textContent = 'نسخ'; }, 1600); };
+      const fallback = () => { const b = copyBtn.parentElement.querySelector('b'); const r = document.createRange(); r.selectNodeContents(b); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+      try { navigator.clipboard.writeText(num).then(done, fallback); } catch (err) { fallback(); }
+      return;
+    }
+    if (!callBox.hidden && !e.target.closest('#callChooser')) closeCall();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCall(); });
+
   /* ---------------- products ---------------- */
   const GROUPS = {
     car: { ar: 'دهانات السيارات', c: '#D7232F' },
@@ -454,7 +474,7 @@
     grid.innerHTML = `<div class="prod-empty glass"><h3 class="title">كل منتجات <span class="grad">كابسي</span> متوفرة عندنا</h3>
       <p class="lead" style="margin-inline:auto">كتالوج المنتجات بيتجهّز حالياً. لحد ما يخلص، اسألنا عن أي منتج أو كود على واتساب أو تليفون وإحنا نرد عليك.</p>
       <div class="hero-cta"><a class="btn btn-paint" data-wa href="https://wa.me/${WA.nasr}" target="_blank" rel="noopener"><span>اسأل على واتساب</span></a>
-      <a class="btn btn-ghost" href="tel:+20224090094"><span>اتصل بينا</span></a></div></div>`;
+      <a class="btn btn-ghost" data-call href="tel:+20224090094"><span>اتصل بينا</span></a></div></div>`;
   } else {
     const ps = $('.stat-products');
     if (ps) ps.hidden = false;

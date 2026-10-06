@@ -543,3 +543,11 @@ main, .footer { position: relative; z-index: 2; }
 .lab-code .ral-chip::before { content: ""; width: 18px; height: 18px; border-radius: 5px; background: var(--ral, transparent); box-shadow: 0 0 0 2px rgba(255,255,255,.6); }
 .lab-code small { font-size: 13px; color: var(--ink); opacity: .85; margin-bottom: 2px; }
 .lab-code span bdi { font-variant-numeric: tabular-nums; }
+/* call chooser */
+.call-chooser { position: fixed; z-index: 120; inset: 0; margin: auto; height: fit-content; box-sizing: border-box; width: min(420px, calc(100vw - 32px)); padding: 18px; display: grid; gap: 12px; background: var(--glass-strong); animation: zoomIn .25s cubic-bezier(.2,.8,.2,1); }
+.call-chooser[hidden] { display: none; }
+.call-chooser > p { margin: 0 4px 2px; font-weight: 700; font-size: 18px; }
+.call-row { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 14px; background: rgba(255,255,255,.05); border: 1px solid var(--line); }
+.call-row > div { min-width: 0; display: grid; }
+.call-row small { color: var(--muted); font-size: 12px; }
+.call-row b { font-size: 19px; letter-spacing: .04em; font-variant-numeric: tabular-nums; user-select: all; text-align: right; }
