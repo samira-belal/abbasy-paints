@@ -64,7 +64,7 @@
     if (el.dataset.done) return;
     el.dataset.done = '1';
     let to = el.dataset.count;
-    if (to === 'years') to = new Date().getFullYear() - 2001;
+    if (to === 'years') to = new Date().getFullYear() - 1999;
     else if (to === 'products') to = productTotal;
     to = +to;
     if (!isFinite(to)) return;
@@ -183,6 +183,27 @@
   }
   const toHex = rgb => '#' + rgb.map(v => v.toString(16).padStart(2, '0')).join('').toUpperCase();
 
+  /* nearest RAL Classic shade, by CIELAB distance */
+  function rgbToLab(rgb) {
+    const [x, y, z] = (() => {
+      const [r, g, b] = rgb.map(v => { v /= 255; return v > 0.04045 ? Math.pow((v + 0.055) / 1.055, 2.4) : v / 12.92; });
+      return [(r * 0.4124 + g * 0.3576 + b * 0.1805) / 0.95047, r * 0.2126 + g * 0.7152 + b * 0.0722, (r * 0.0193 + g * 0.1192 + b * 0.9505) / 1.08883];
+    })();
+    const f = t => t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116;
+    return [116 * f(y) - 16, 500 * (f(x) - f(y)), 200 * (f(y) - f(z))];
+  }
+  const RAL = (window.RAL_CLASSIC || []).map(([code, hex, name]) => ({ code, hex, name, lab: rgbToLab(hexToRgb(hex)) }));
+  function nearestRal(rgb) {
+    if (!RAL.length) return null;
+    const L = rgbToLab(rgb);
+    let best = null, bd = Infinity;
+    for (const r of RAL) {
+      const d = (L[0] - r.lab[0]) ** 2 + (L[1] - r.lab[1]) ** 2 + (L[2] - r.lab[2]) ** 2;
+      if (d < bd) { bd = d; best = r; }
+    }
+    return best;
+  }
+
   /* CSS-only splash when WebGL is unavailable */
   function cssSplash(x, y, color) {
     if (reduced) return;
@@ -210,6 +231,7 @@
   const hue = $('#hue'), sat = $('#sat'), lit = $('#lit');
   const blobPath = $('#blobPath'), glowPath = $('#blobGlowPath'), shinePath = $('#blobShinePath');
   const stops = [$('#bs0'), $('#bs1'), $('#bs2')];
+  const ralOut = $('#ralOut'), ralName = $('#ralName');
   const hexOut = $('#hexOut'), rgbOut = $('#rgbOut'), ask = $('#askColor'), splashBtn = $('#splash');
   let labRgb = [215, 35, 47];
 
@@ -222,12 +244,19 @@
     stops[2].setAttribute('stop-color', `hsl(${h} ${Math.min(100, s + 8)}% ${Math.max(4, l - 24)}%)`);
     hexOut.textContent = hex;
     rgbOut.textContent = `RGB ${labRgb.join(', ')}`;
+    const ral = nearestRal(labRgb);
+    if (ralOut) {
+      ralOut.textContent = ral ? `RAL ${ral.code}` : '';
+      ralOut.title = ral ? ral.name : '';
+      ralOut.style.setProperty('--ral', ral ? ral.hex : 'transparent');
+    }
+    if (ralName) ralName.textContent = ral ? ral.name : '';
     root.style.setProperty('--lab', hex);
     const lum = (0.299 * labRgb[0] + 0.587 * labRgb[1] + 0.114 * labRgb[2]) / 255;
     root.style.setProperty('--lab-ink', lum > 0.55 ? '#10121f' : '#ffffff');
     sat.style.setProperty('--track', `linear-gradient(to left, hsl(${h} 0% ${l}%), hsl(${h} 100% ${l}%))`);
     lit.style.setProperty('--track', `linear-gradient(to left, hsl(${h} ${s}% 8%), hsl(${h} ${s}% 50%), hsl(${h} ${s}% 92%))`);
-    ask.dataset.waText = `أهلاً، عايز اللون ده: ${hex}`;
+    ask.dataset.waText = ral ? `أهلاً، عايز اللون ده: RAL ${ral.code} (${ral.name}) — ${hex}` : `أهلاً، عايز اللون ده: ${hex}`;
     $$('.swatch').forEach(b => b.setAttribute('aria-pressed', b.dataset.hex === hex ? 'true' : 'false'));
   }
   const swWrap = $('#swatches');

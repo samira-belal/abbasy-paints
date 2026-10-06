@@ -538,3 +538,8 @@ main, .footer { position: relative; z-index: 2; }
   .strip { overflow-x: auto; }
   .js .reveal { opacity: 1; transform: none; }
 }
+/* RAL readout in the colour lab */
+.lab-code .ral-chip { display: inline-flex; align-items: center; gap: 10px; font-size: 26px; letter-spacing: .06em; }
+.lab-code .ral-chip::before { content: ""; width: 18px; height: 18px; border-radius: 5px; background: var(--ral, transparent); box-shadow: 0 0 0 2px rgba(255,255,255,.6); }
+.lab-code small { font-size: 13px; color: var(--ink); opacity: .85; margin-bottom: 2px; }
+.lab-code span bdi { font-variant-numeric: tabular-nums; }
