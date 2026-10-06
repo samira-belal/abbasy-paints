@@ -1,0 +1,2422 @@
+{
+ "categories": [
+  {
+   "id": "primers",
+   "group": "car",
+   "ar": "البرايمرات",
+   "en": "Primers",
+   "intro": "",
+   "products": [
+    {
+     "code": "800",
+     "ar": "إتش برايمر احادي",
+     "desc": "1K. etch primer used under Kapci 1K and 2K topcoats and Kapci .basecoat. colors…",
+     "line": "Kapci",
+     "img": "assets/products/800.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0000_800.png"
+    },
+    {
+     "code": "805",
+     "ar": "ووش برايمر ثنائي",
+     "desc": "ووش برايمر ثنائي يستخدم كأساس على الأسطح الحديدية , الالومنيوم, الحديد المجلفن حيث يتميز بقوة التصاق عالية ومقاومة للصدأ",
+     "line": "Kapci",
+     "img": "assets/products/805.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/805.png"
+    },
+    {
+     "code": "810",
+     "ar": "زنك ريتش إيبوكسي برايمر ثنائي",
+     "desc": "هو برايمر إيبوكسى ثنائي ذو مقاومة عالية للصدأ وذلك لإحتوائه على كمية كبيرة من الزنك تجعله يتحمل التعرض للظروف الجويه العاليه",
+     "line": "Kapci",
+     "img": "assets/products/810.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0001_810.png"
+    },
+    {
+     "code": "830",
+     "ar": "الكيد برايمر",
+     "desc": "هو دهان الكيدى أحادى (لا يحتاج مصلب) يمتاز بالحماية العاليه ضد الصدأ وقوة تماسك على الحديد",
+     "line": "Kapci",
+     "img": "assets/products/830.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/830-500px-2.png"
+    },
+    {
+     "code": "820",
+     "ar": "برايمر إيبوكسي ثنائي قابل للحام",
+     "desc": "هو برايمر إيبوكسى ثنائي قابل للحام، حيث يمكن اللحام فوقه، ذو مقاومة عالية للصدأ، كما أنه يمتاز بقوة الالتصاق العالية على الحديد",
+     "line": "Kapci",
+     "img": "assets/products/820.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/820.png"
+    },
+    {
+     "code": "870",
+     "ar": "برايمر ايبوكسي ثنائي",
+     "desc": "هو برايمر إيبوكسى ثنائي المركب ذو مقاومة عالية للصدأ ومقاومة الكيماويات و يمتاز بسرعة الجفاف وقوة الالتصاق العالية على الحديد و الإستنلس ستيل والحديد المجلفن والألومنيوم",
+     "line": "Kapci",
+     "img": "assets/products/870.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/870.png"
+    },
+    {
+     "code": "835",
+     "ar": "الكيد برايمر",
+     "desc": "هو دهان الكيدى أحادى (لا يحتاج مصلب) يمتاز بالحماية العاليه ضد الصدأ وقوة تماسك على الحديد",
+     "line": "Kapci",
+     "img": "assets/products/835.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/835.png"
+    },
+    {
+     "code": "880",
+     "ar": "برايمر إيبوكسي ثنائي",
+     "desc": "هو برايمر إيبوكسى ثنائي المركب ذو مقاومة عالية للصدأ ومقاومة الكيماويات وقوة الالتصاق العالية على الحديد و الإستنلس ستيل والحديد المجلفن والألومنيوم",
+     "line": "Kapci",
+     "img": "assets/products/880.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-1_0009_880.png"
+    },
+    {
+     "code": "850",
+     "ar": "سيثتيك",
+     "desc": "هو سينثيتك برايمر أحادى (لا يحتاج مصلب) سريع الجفاف يمتاز بالحماية العاليه ضد الصدأ وقوة تماسك على الحديد",
+     "line": "Kapci",
+     "img": "assets/products/850.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/850.png"
+    },
+    {
+     "code": "873",
+     "ar": "برايمر إيبوكسي ثنائي",
+     "desc": "هو برايمر إيبوكسى ثنائي المركب ذو مقاومة عالية للصدأ ومقاومة الكيماويات و يمتاز بسرعة الجفاف وقوة الالتصاق العالية على الحديد و الإستنلس ستيل والحديد المجلفن والألومنيوم والفيبر جلاس",
+     "line": "Kapci",
+     "img": "assets/products/873.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/873.png"
+    },
+    {
+     "code": "875",
+     "ar": "برايمر ايبوكسي ثنائي",
+     "desc": "هو برايمر إيبوكسى ثنائي المركب ذو مقاومة عالية للصدأ ومقاومة الكيماويات و يمتاز بسرعة الجفاف وقوة الالتصاق العالية على الحديد و الإستنلس ستيل والحديد المجلفن والألومنيوم",
+     "line": "Kapci",
+     "img": "assets/products/875.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/875.png"
+    }
+   ]
+  },
+  {
+   "id": "putty",
+   "group": "car",
+   "ar": "المعاجين",
+   "en": "Putty",
+   "intro": "",
+   "products": [
+    {
+     "code": "8200",
+     "ar": "معجون بولي إستر",
+     "desc": "هو معجون بولى استر ناعم، سريع الجفاف يصلح للأغراض العامة للتطبيق",
+     "line": "Prima",
+     "img": "assets/products/8200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0074_8200-1L.png"
+    },
+    {
+     "code": "350",
+     "ar": "معجون بولي استر",
+     "desc": "هو معجون بولى استر يصلح للأغراض العامة للتطبيق، يعتبر كابسى 350 هو افضل اساس لنظام دهانات كابسى كما يتميز بسهولة التطبيق والصنفرة",
+     "line": "Kapci",
+     "img": "assets/products/350.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0042_407348-350-PE-Putty-1.5K-EU-CIRCULAR-CAN-India-Rev01.png"
+    },
+    {
+     "code": "355",
+     "ar": "معجون بولي استر مرن للبلاستيك",
+     "desc": "هو معجون بولى استر مرن صمم خصيصا للتطبيق على الاسطح البلاستيكية المرنه ويتميز بتماسك ممتاز على البلاستك مع مرونة عاليه",
+     "line": "Kapci",
+     "img": "assets/products/355.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0043_355.png"
+    },
+    {
+     "code": "360",
+     "ar": "معجون بولي فيبر",
+     "desc": "هو معجون بولى استر يحتوى على الياف الفيبر. وهذه الكمية الكبيرة من الياف الفيبر الموجوده بالمنتج تعطيه قدرة كبيرة على المليء وغلق الفتحات الصغيرة و الكبيرة واصلاح الشروخ",
+     "line": "Kapci",
+     "img": "assets/products/360.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0044_360.png"
+    },
+    {
+     "code": "365",
+     "ar": "معجون بولي فيبر خليط",
+     "desc": "هو معجون بولى استر يحتوى على الياف الفيبر. الكمية الكبيرة من الياف الفيبر الموجوده بالمنتج تعطيه قدرة كبيرة على المليء واصلاح مشاكل...",
+     "line": "Kapci",
+     "img": "assets/products/365.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0045_365.png"
+    },
+    {
+     "code": "373",
+     "ar": "معجون بولي ايستر خفيف",
+     "desc": "هو معجون بولى استر خفيف، مناسب لإصلاح الاسطح الكبيرة نظرا لخفة وزنه، يعتبر كابسى 373 هو افضل اساس لنظام دهانات كابسى",
+     "line": "Kapci",
+     "img": "assets/products/373.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-1-2.png"
+    },
+    {
+     "code": "374",
+     "ar": "معجون بولي ايستر خفيف",
+     "desc": "هو معجون بولى استر ناعم و خفيف. يتميز كابسى 374 بلزوجه جيده وقوام ناعم والذي يؤدي لسهولة التطبيق والصنفرة ليعطى سطح نهائى متجانس",
+     "line": "Kapci",
+     "img": "assets/products/374.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/374-1.png"
+    },
+    {
+     "code": "375",
+     "ar": "معجون بولي ايستر خفيف",
+     "desc": "هو معجون بولى استر خفيف، يتميز بلزوجته الخفيفه. مناسب لإصلاح الاسطح الكبيرة نظرا لكثافته المتوسطه ويتميز بسهولة التطبيق والصنفرة مع سطح...",
+     "line": "Kapci",
+     "img": "assets/products/375.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/375-1.png"
+    },
+    {
+     "code": "377",
+     "ar": "فيلر",
+     "desc": "هو معجون بولي استر منخفض اللزوجة قابل للرش، فهو مناسب لعمل طبقة رقيقة ناعمة لملئ الخدوش الصغيرة وآثار الصنفرة ومعالجة عيوب السطح البسيطة",
+     "line": "Kapci",
+     "img": "assets/products/377.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/377-1.png"
+    },
+    {
+     "code": "380",
+     "ar": "معجون المومنيوم",
+     "desc": "هو معجون بولى استر يحتوى على حبيبات الالومنيوم مما يعطى للمعجون قدرة عاليه على المليء ومقاومة الاهتزاز ويعطي له قدرة على تحمل الحرارة حتى 80 درجة مئوية",
+     "line": "Kapci",
+     "img": "assets/products/380.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0000_380.png"
+    },
+    {
+     "code": "400",
+     "ar": "معجون نترو سليلوز",
+     "desc": "و معجون نترو سيليلوزي أحادي (بدون مصلب) سريع الجفاف، كابسى 400 يتم تطبيقه طبقة رقيقة على السطح لمليء الخدوش والثغور الدقيقه ومعالجة عيوب السطح البسيطة",
+     "line": "Kapci",
+     "img": "assets/products/400.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0033_400.png"
+    },
+    {
+     "code": "410",
+     "ar": "معجون نترو سليلوز",
+     "desc": "هو معجون نترو سيليلوزي أحادي (بدون مصلب) سريع الجفاف، كابسى 410 يتم تطبيقه طبقة رقيقة على السطح لمليء الخدوش والثغور الدقيقه ومعالجة عيوب السطح البسيطة",
+     "line": "Kapci",
+     "img": "assets/products/410.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0051_410.png"
+    },
+    {
+     "code": "450",
+     "ar": "معجون نترو سليلوز",
+     "desc": "هو معجون نترو سيليلوزي أحادي (بدون مصلب) سريع الجفاف، كابسى 450 يتم تطبيقه طبقة رقيقة على السطح لمليء الخدوش والثغور الدقيقه ومعالجة عيوب السطح البسيطة",
+     "line": "Kapci",
+     "img": "assets/products/450.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0032_450.png"
+    },
+    {
+     "code": "370",
+     "ar": "معجون بولي ايستر خفيف",
+     "desc": "هو معجون بولى استر خفيف، مناسب لإصلاح الاسطح الكبيرة نظرا لخفة وزنه نتيجة لانخفاض الكثافة عن كثافة معاجين البوليستر الأخرى. يعتبر كابسى 370 هو افضل اساس لنظام دهانات كابسى",
+     "line": "Dima",
+     "img": "assets/products/370.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/370.png"
+    },
+    {
+     "code": "354",
+     "ar": "معجون بولي إستر للسطح المجلفن",
+     "desc": "هو معجون بولي استر صمم خصيصا للتطبيق على الأسطح الحديدية المجلفنة، يتميز بقوة التماسك مع الحديد المجلفن كما يمكن تطبيقه على أنواع أخرى من الأسطح مثل الألومنيوم، الإستيل، الفيبر جلاس (GRP)،",
+     "line": "Dima",
+     "img": "assets/products/354.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0028_354.png"
+    },
+    {
+     "code": "352",
+     "ar": "معجون بولي استر سوفت سريع",
+     "desc": "هو معجون بولى استر سوفت سريع الجفاف، يعطي سطح ناعم ومغلق المسام كما يتميز بسهولة التطبيق والصنفرة ويصلح للتطبيق على انواع مختلفه من الاسطح مثل الحديد , الحديد المجلفن, الالومنيوم , الفيبر ..",
+     "line": "Dima",
+     "img": "assets/products/352.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/352-300x300-1.png"
+    },
+    {
+     "code": "351",
+     "ar": "معجون بولي أستر سوفت",
+     "desc": "هو معجون بولى استر سوفت يصلح للأغراض العامة للتطبيق، يعتبر كابسى 351 هو افضل اساس لنظام دهانات كابسى كما يتميز بسهولة التطبيق والصنفرة",
+     "line": "Dima",
+     "img": "assets/products/351.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/351-300x300-1.png"
+    },
+    {
+     "code": "5200",
+     "ar": "معجون بولي استر",
+     "desc": "هو معجون بولى استر يصلح للأغراض العامة للتطبيق، يعتبر لاتيكو 5200 هو افضل اساس لنظام دهانات كابسى كما يتميز بسهولة التطبيق والصنفرة",
+     "line": "Latico",
+     "img": "assets/products/5200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0140_5200.png"
+    },
+    {
+     "code": "5220",
+     "ar": "معجون بولي استر",
+     "desc": "هو معجون بوليإستر يصلح للإغراض العامه للتطبيق ويعتبر هو أفضل اساس لنظام دهانات لاتيكو ويتميز بسهوله التطبيق والصنفره",
+     "line": "Latico",
+     "img": "assets/products/5220.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0081_5220.png"
+    },
+    {
+     "code": "5250",
+     "ar": "معجون بولي ايستر خفيف",
+     "desc": "هو معجون بولى استر خفيف. مناسب لإصلاح الاسطح الكبيرة نظرا لخفة وزنه. يعتبر لاتيكو 5250 هو افضل اساس لنظام دهانات كابسى كما يتميز بسهولة التطبيق والصنفرة",
+     "line": "Latico",
+     "img": "assets/products/5250.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0082_5250.png"
+    },
+    {
+     "code": "RC-01",
+     "ar": "Refinix RC 01/RFX Adplast is a 1K primer",
+     "desc": "is a 1K primer for plastic. It is used as a direct primer over variety of plastics prior to applying any subsequent coat. The product can be used at temperature above 18°C.",
+     "line": "Refinix",
+     "img": "assets/products/rc-01.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/06/Rc-01.png"
+    },
+    {
+     "code": "RC-20",
+     "ar": "RC 20/RFX PE Putty",
+     "desc": "is a general-purpose putty based on polyester resins. It provides the best foundation for all paint systems combining easy application with easy sanding.",
+     "line": "Refinix",
+     "img": "assets/products/rc-20.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/06/Puttu-can.png"
+    }
+   ]
+  },
+  {
+   "id": "fillers",
+   "group": "car",
+   "ar": "الفيلرات",
+   "en": "Fillers",
+   "intro": "",
+   "products": [
+    {
+     "code": "8350",
+     "ar": "فلر أكريلك ثنائي",
+     "desc": "هو فلر من الأكريلك ذو محتوى صلب عالى (HS)، صمم خصيصا ليكون أساس للبيزكوت المائي أو يحتوي على مذيبات مثل كابسى ديما المائى أو بريمابيز أو بريماكريل أو كابسي كريل او كابسى بيز",
+     "line": "Prima",
+     "img": "assets/products/8350.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/8350.png"
+    },
+    {
+     "code": "1K",
+     "ar": "فلر أحادي",
+     "desc": "هو منتج أحادي (بدون مصلب) ذو اساس نترو سيليلوز يتميز بسرعة الجفاف. يستخدم لمليء الثغور والخدوش الصغيرة ومعالجة عيوب السطح البسيطة قبل اعادة التطبيق بأى من دهانات كابسى",
+     "line": "Kapci",
+     "img": "assets/products/1k.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0001_405572-F-1K-1-L-Label-REV01.png"
+    },
+    {
+     "code": "625",
+     "ar": "فلر أكريلك ثنائي",
+     "desc": "هو فلر اكريلك ثنائي المركب (بالمصلب) (4:1)، صمم خصيصا ليكون أساسا لكابسى اكريلك او كابسى بيز، يمتاز هذا المنتج بسهولة التطبيق والصنفرة و يعطى سطح نهائى ممتاز",
+     "line": "Kapci",
+     "img": "assets/products/625.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0002_406709-625-1L-UK-Label-Comp-REV01.png"
+    },
+    {
+     "code": "630",
+     "ar": "فلر أكريليك ثنائي عالي المحتوى الصلب",
+     "desc": "هو فلر أكريلك ثنائي المركب (بالمصلب) (4:1) عالي المحتوى الصلب، صمم خصيصا ليكون أساس لكابسى اكريلك او كابسى بيز و كابسي ديما. يمتاز هذا المنتج بسهولة التطبيق ...",
+     "line": "Kapci",
+     "img": "assets/products/630.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/630-1.png"
+    },
+    {
+     "code": "635",
+     "ar": "فلر أكريلك ثنائي",
+     "desc": "هو فلر اكريلك ثنائي المركب (بالمصلب) (4:1)، صمم خصيصا ليكون أساسا لكابسى اكريلك او كابسى بيز. يمتاز هذا المنتج بسهولة التطبيق و الصنفرة و يعطى سطح نهائى ممتاز",
+     "line": "Kapci",
+     "img": "assets/products/635.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0003_635.png"
+    },
+    {
+     "code": "626",
+     "ar": "فلر أكريلك ثنائي - عالي المحتوى الصلب سريع الجفاف",
+     "desc": "هو فلر ذو اساس اكريلك سريع الجفاف ذو محتوى صلب عالى HS صمم خصيصا ليكون اساس لكابسى ديما 9670 المائى",
+     "line": "Dima",
+     "img": "assets/products/626.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0000_626.png"
+    },
+    {
+     "code": "633",
+     "ar": "أكريليك ثنائي عالي المحتوى الصلب",
+     "desc": "هو فلر ذو اساس اكريلك ذو محتوى صلب عالى HS صمم خصيصا ليكون أساس لكابسى ديما المائى او اكريلك الثنائي او كابسى بيز. يمتاز هذا المنتج ...",
+     "line": "Dima",
+     "img": "assets/products/633.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0001_633.png"
+    },
+    {
+     "code": "634",
+     "ar": "فلر أكريليك ثنائي عالي المحتوى الصلب سريع",
+     "desc": "is fast drying 2K HS acrylic filler developed for use under water- borne basecoats,…",
+     "line": "Dima",
+     "img": "assets/products/634.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0002_634.png"
+    },
+    {
+     "code": "5300",
+     "ar": "فلر أحادي من النتروسيليلوز",
+     "desc": "فلر سريع هو منتج أحادي (بدون مصلب) ذو اساس نترو سيليلوز يتميز بسرعة الجفاف. يستخدم لمليء الثغور والخدوش الصغيرة ومعالجة عيوب السطح البسيطة قبل اعادة التطبيق بأى من...",
+     "line": "Latico",
+     "img": "assets/products/5300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0000_5300.png"
+    },
+    {
+     "code": "5450",
+     "ar": "فلر أكريلك ثنائي",
+     "desc": "هو فلر اكريلك ثنائي المركب (بالمصلب) (4:1)، صمم خصيصا ليكون أساسا لكابسى اكريلك او كابسى بيز، يمتاز هذا المنتج بسهولة التطبيق والصنفرة و يعطى سطح نهائى ممتاز",
+     "line": "Latico",
+     "img": "assets/products/5450.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0146_5450.png"
+    },
+    {
+     "code": "RC 24",
+     "ar": "RFX Lightweight Body Filler",
+     "desc": "is an ultra-lightweight general purpose body filler with significantly lower specific weight than common standard body fillers,…",
+     "line": "Refinix",
+     "img": "assets/products/rc-24.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/06/Rc-24.png"
+    }
+   ]
+  },
+  {
+   "id": "degreasers",
+   "group": "car",
+   "ar": "المطهرات",
+   "en": "Degreasers",
+   "intro": "",
+   "products": [
+    {
+     "code": "8080",
+     "ar": "مطهر",
+     "desc": "صمم للإستخدام فى التجهيز للدهان وذلك لإزالة الشحوم والزيوت العالقة بالسطح ويستخدم خصيصا لتطهير الفلرات والدهان القديم بعد الصنفرة",
+     "line": "Prima",
+     "img": "assets/products/8080.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/8080.png"
+    },
+    {
+     "code": "9605",
+     "ar": "مطهر",
+     "desc": "9605 هو مطهر يستخدم مع دهان ديما المائى لتطهير الفلر والدهان القديم والذى تم صنفرته",
+     "line": "Dima",
+     "img": "assets/products/9605.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0026_9605.png"
+    }
+   ]
+  },
+  {
+   "id": "auxiliaries",
+   "group": "car",
+   "ar": "المساعدات",
+   "en": "Auxiliaries",
+   "intro": "",
+   "products": [
+    {
+     "code": "003",
+     "ar": "مزيل دهان",
+     "desc": "هو مزيل دهان صمم خصيصا لازالة انواع الدهانات المختلفة (أكريلك , بولى يوريثان , إيبوكسى ..) من على الأسطح المعدنية",
+     "line": "Kapci",
+     "img": "assets/products/003.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0004_003.png"
+    },
+    {
+     "code": "100",
+     "ar": "اندركوت",
+     "desc": "هو منتج يتكون من سيكلوربر صمم لحماية هيكل السيارة السفلى من الصدمات والصدأ . يمكن تطبيق المنتج على ارضية السيارة او اى اجزاء معدنية اخر",
+     "line": "Kapci",
+     "img": "assets/products/100.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/0017_402650-100-1-L-Label-REV01.png"
+    },
+    {
+     "code": "100S",
+     "ar": "اندر كوت جاهز للرش",
+     "desc": "هو منتج يتكون من مادة السيكلوربر صمم لحماية هيكل السيارة السفلى من الصدمات والصدأ . يمكن تطبيق المنتج على ارضية السيارة او اى...",
+     "line": "Kapci",
+     "img": "assets/products/100s.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0005_400522-100-S-spray-undercoat-1L-EU-Label-comp-Rev.02-O.png"
+    },
+    {
+     "code": "222",
+     "ar": "اندركوت",
+     "desc": "هو منتج يتكون من اساس الكيد، صمم لحماية هيكل السيارة السفلى من الصدمات والصدأ . يمكن تطبيق المنتج على ارضية السيارة او اى اجزاء معدنية",
+     "line": "Kapci",
+     "img": "assets/products/222.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0007_402678-222-3-L-comp-Rev01-C.png"
+    },
+    {
+     "code": "605",
+     "ar": "مطهر",
+     "desc": "صمم للإستخدام فى التجهيز للدهان وذلك لإزالة الشحوم والزيوت العالقة بالسطح،ويستخدم خصيصا لتطهير الفلرات والدهان القديم بعد الصنفرة.",
+     "line": "Kapci",
+     "img": "assets/products/605.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/605-1.png"
+    },
+    {
+     "code": "606",
+     "ar": "مطهر",
+     "desc": "صمم للإستخدام فى التجهيز للدهان وذلك لإزالة الشحوم والزيوت العالقة بالسطح،ويستخدم خصيصا لتطهير الأسطح المعدنية وإزالة الشحوم والزيوت من سطح المعدن",
+     "line": "Kapci",
+     "img": "assets/products/606.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0008_606.png"
+    },
+    {
+     "code": "615",
+     "ar": "برايمر البلاستيك",
+     "desc": "برايمر بلاستيك، يستخدم كبادئ للدهان فوق الأنواع المختلفة من الأسطح البلاستيكية، يتم تطبيق الدهان عليه بعد 15 - 20 دقيقة بدون صنفرة يمكن اعادة دهانه بفلر ثنائي او دهان اكريلك ثنائي او دهان بيز وورنيش",
+     "line": "Kapci",
+     "img": "assets/products/615.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0020_405568-615-0.5-L-Label-REV01-R-1.png"
+    },
+    {
+     "code": "616",
+     "ar": "محسن المرونه",
+     "desc": "محسن مرونة، هي إضافة يتم إضافتها لدهانات كابسي مثل الفلرات الثنائيه الأكريليك والدهانات الثنائيه الأكريليك والورنيشات الثنائيه الأكريليك لزيادة مرونة الدهانات عند دهانها فوق الأسطح البلاستيكية المرنة وشديدة المرونة.",
+     "line": "Kapci",
+     "img": "assets/products/616.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0010_616.png"
+    },
+    {
+     "code": "619",
+     "ar": "سيلر أكريلك أحادي",
+     "desc": "سيلر أكريليك أحادي (بدون مصلب)، جاهز للإستخدام مباشرة، يتم تطبيق الدهان عليه بعد 20 - 30 دقيقة من الرش بدون صنفرة ويستخدم في دهان المرمات الصغيرة واللوحات",
+     "line": "Kapci",
+     "img": "assets/products/619.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0011_619.png"
+    },
+    {
+     "code": "620",
+     "ar": "سيلير أكريليك ثنائي شفاف",
+     "desc": "و دهان غير تقليدى من الأكريليك الثنائى ( يحتاج مصلب) ذو قوة تماسك ممتازة على الأسطح دون صنفرتها وبالتالى فهو يوفر عملية الصنفرة",
+     "line": "Kapci",
+     "img": "assets/products/620.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0013_620.png"
+    },
+    {
+     "code": "6510",
+     "ar": "المعجل",
+     "desc": "هو معجل يستخدم بفرض تسريع معدل الجفاف ونظرا لنشاطه القوي في التفاعل يجب الحرص التام عند استعماله ومعرفه الكميه الواجب إضافتها",
+     "line": "Kapci",
+     "img": "assets/products/6510.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/0010_616.png"
+    },
+    {
+     "code": "5100s",
+     "ar": "اندركوت",
+     "desc": "هو منتج يتكون من مادة السيكلوربر صمم لحماية هيكل السيارة السفلى من الصدمات والصدأ . يمكن تطبيق المنتج على ارضية السيارة او اى اجزاء معدنية اخرى",
+     "line": "Latico",
+     "img": "assets/products/5100s.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0028_5100.png"
+    }
+   ]
+  },
+  {
+   "id": "mixing-systems",
+   "group": "car",
+   "ar": "نظام خلط البويات",
+   "en": "Paint Mixing Systems",
+   "intro": "",
+   "products": [
+    {
+     "code": "8600",
+     "ar": "نظام لخلط الالوان الأكريليك الثنائي",
+     "desc": "هو نظام ثنائى (بمصلب) لخلط الألوان ذات الأساس الأكريليك والذى يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة",
+     "line": "Prima",
+     "img": "assets/products/8600.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0112_8600-1L.png"
+    },
+    {
+     "code": "8700",
+     "ar": "نظام خلط الألوان",
+     "desc": "هو نظام أحادي (بدون مصلب) لخلط الالوان وهو عبارة عن بيزكوت يستخدم لدهان السيارات والشاحنات ويقدم اأنواع مختلفة من الألوان السادة والميتالك والبيرل والألوان ذات التأثيرات..",
+     "line": "Prima",
+     "img": "assets/products/8700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0108_8700-1L.png"
+    },
+    {
+     "code": "641",
+     "ar": "ألوان أكريليك بولي يوريثان ثنائيه ملونه مسبقا",
+     "desc": "هو ألوان جاهزة من الاكريليك بولي يوريثان الثنائى والذى يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة ويتميز بأنه من أجود خامات الأكريليك بولي يوريثان عالى اللمعة شديد التحمل مع معدل تغطية ممتاز",
+     "line": "Kapci",
+     "img": "assets/products/641.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0014_405242-641-1-L-Can-REV02.png"
+    },
+    {
+     "code": "660",
+     "ar": "نظام لخلط الالوان الأكريليك الثنائي",
+     "desc": "نظام ثنائى لخلط الوان ذات الأساس الأكريليك والذى يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة و يتميز بأنه من أجود خامات الأكريليك بولي يوريثان عالى اللمعة شديد التحمل مع معدل تغطية ممتاز",
+     "line": "Kapci",
+     "img": "assets/products/660.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0015_405239-660-1-L-Label-REV01.png"
+    },
+    {
+     "code": "640",
+     "ar": "ألوان بيزكوت جاهزه من بولي إستر",
+     "desc": "هي الوان بيز جاهزة يستخدم لدهان السيارات و الشاحنات، كابسي بيز 640 يقدم اأنواع مختلفة من الألوان السادة والميتالك والبيرل، يمتاز كابسي بيز 640 بأنه سهل..",
+     "line": "Kapci",
+     "img": "assets/products/640.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0016_402860-640-1L-Rev.01.png"
+    },
+    {
+     "code": "670",
+     "ar": "نظام خلط الألوان",
+     "desc": "نظام خلط الالوان لدهان السيارات والشاحنات ويقدم انواع مختلفه من الالوان الساده والميتالك والبيز والالوان ذات التاثيرالخاص ويمكن استخدام اي من ورنيشات كابسي لاعطاء اللمعه والحمايه اللازمه",
+     "line": "Kapci",
+     "img": "assets/products/670.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/0017_402650-670-magic-1-L-Label-REV01.png"
+    },
+    {
+     "code": "9670",
+     "ar": "نظام خلط الألوان المائي",
+     "desc": "هو نظام خلط ألوان مائي يستخدم في دهان السيارات والشاحنات، يحتوي النظام علي عدد كبير من الألوان المائية منها الميتالك والبيرل والألوان السادة، هذا النظام المائي ديما 9670 يتوافق تماما مع النظام البيئي حيث...",
+     "line": "Dima",
+     "img": "assets/products/9670.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0027_9670.png"
+    },
+    {
+     "code": "5700",
+     "ar": "دهان أكريليك ثنائي",
+     "desc": "هو دهان أكريليك بولي يوريثان ثنائى الذى يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة، لاتيكو 5710 يتميز بأنه من أجود خامات الأكريليك بولي يوريثان عالى اللمعة شديد التحمل مع معدل تغطية ممتاز",
+     "line": "Latico",
+     "img": "assets/products/5700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0143_5700.png"
+    },
+    {
+     "code": "5710",
+     "ar": "دهان أكريليك ثنائي",
+     "desc": "هو دهان أكريليك بولي يوريثان ثنائى الذى يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة، لاتيكو 5710 يتميز بأنه من أجود خامات الأكريليك بولي يوريثان عالى اللمعة شديد التحمل مع معدل تغطية ممتاز",
+     "line": "Latico",
+     "img": "assets/products/5710.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0141_5710.png"
+    },
+    {
+     "code": "5720",
+     "ar": "دهان أكريلك بولي يورثان ثنائي - ملون جاهز",
+     "desc": "هو دهان أكريليك بولي يوريثان ثنائى ملون جاهز يستخدم لإعادة دهان السيارات الخاصه والمركبات العامة، لاتيكو 5720 يتميز بأنه من أجود خامات الأكريليك",
+     "line": "Latico",
+     "img": "assets/products/5720.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0144_5720.png"
+    },
+    {
+     "code": "5770",
+     "ar": "بيزكوت",
+     "desc": "هو مجموعة من ملونات البيز كوت يستخدم لدهان السيارات و الشاحنات، لاتيكو بيز كوت 5770 يقدم أنواع مختلفة من الألوان السادة والميتالك والبيرل والألوان ذات التأثيرات الخاصة ويمكن إستخدام أي من ورنيشات",
+     "line": "Latico",
+     "img": "assets/products/5770.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0148_5770.png"
+    },
+    {
+     "code": "5780",
+     "ar": "Basecoat Mixing",
+     "desc": "is a line of basecoat toners used for repainting…",
+     "line": "Latico",
+     "img": "assets/products/5780.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2024/10/Untitled-2_0148_5780.png"
+    },
+    {
+     "code": "5790",
+     "ar": "ألوان بيز جاهزه من بولي إستر",
+     "desc": "هي ألوان بيز جاهزه (ملونه مسبقا) تستخدم لدهان السيارات والشاحنات ، ويقدم أنواع مختلفه من الألوان الساده والميتالك والبيرل والألوان ذات التأثير الخاص",
+     "line": "Latico",
+     "img": "assets/products/5790.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0142_5790.png"
+    },
+    {
+     "code": "5795",
+     "ar": "ألوان بيز جاهزه من بولي إستر",
+     "desc": "هو مجموعة من ملونات البيز كوت يستخدم لدهان السيارات و الشاحنات، لاتيكو بيز كوت 5770 يقدم أنواع مختلفة من الألوان السادة والميتالك والبيرل والألوان ذات التأثيرات الخاصة ويمكن إستخدام أي من ورنيشات",
+     "line": "Latico",
+     "img": "assets/products/5795.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0145_5795.png"
+    }
+   ]
+  },
+  {
+   "id": "hardeners",
+   "group": "car",
+   "ar": "المصلبات",
+   "en": "Hardeners",
+   "intro": "",
+   "products": [
+    {
+     "code": "8500",
+     "ar": "مصلب سريع جدا",
+     "desc": "مصلب سريع جدا، مناسب للمرمات والقطع الصغيرة فى درجات حرارة منخفضه",
+     "line": "Prima",
+     "img": "assets/products/8500.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/8500.png"
+    },
+    {
+     "code": "8530",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Prima",
+     "img": "assets/products/8530.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0046_8530-1L.png"
+    },
+    {
+     "code": "8873",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع جدا، مناسب للمرمات والقطع الصغيرة فى درجات حرارة منخفضه",
+     "line": "Prima",
+     "img": "assets/products/8873.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0031_8873-2.5L.png"
+    },
+    {
+     "code": "8550",
+     "ar": "مصلب عادي",
+     "desc": "مصلب عادي مناسب للرش الكامل في درجات الحراره العاديه",
+     "line": "Prima",
+     "img": "assets/products/8550.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0047_8550-1L.png"
+    },
+    {
+     "code": "8570",
+     "ar": "مصلب بطيئ",
+     "desc": "مصلب بطيئ، مناسب للرش الجزئي والكامل فى درجات الحرارة العالية",
+     "line": "Prima",
+     "img": "assets/products/8570.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0040_8570-1L.png"
+    },
+    {
+     "code": "652",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Kapci",
+     "img": "assets/products/652.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/652-1.png"
+    },
+    {
+     "code": "651",
+     "ar": "مصلب عادي",
+     "desc": "مصلب عادي مناسب للرش الكامل في درجات الحراره العاديه",
+     "line": "Kapci",
+     "img": "assets/products/651.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/651-1.png"
+    },
+    {
+     "code": "656",
+     "ar": "مصلب بطئ",
+     "desc": "مناسب للرش الجزئي والكامل في درجات الحراره العاليه",
+     "line": "Kapci",
+     "img": "assets/products/656.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/656-1.png"
+    },
+    {
+     "code": "6033",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Dima",
+     "img": "assets/products/6033.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0023_6033.png"
+    },
+    {
+     "code": "6035",
+     "ar": "مصلب عادي",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Dima",
+     "img": "assets/products/6035.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0024_6035.png"
+    },
+    {
+     "code": "6037",
+     "ar": "Slow Haedener",
+     "desc": "مصلب بطيئ، مناسب للرش الجزئي والكامل فى درجات الحرارة العالية",
+     "line": "Dima",
+     "img": "assets/products/6037.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0025_6037.png"
+    },
+    {
+     "code": "6054",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Dima",
+     "img": "assets/products/6054.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0026_6054.png"
+    },
+    {
+     "code": "6055",
+     "ar": "مصلب عادي",
+     "desc": "مصلب سريع مناسب القطع المتوسطه في درجات حراره منخفضه",
+     "line": "Dima",
+     "img": "assets/products/6055.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0018_6055.png"
+    },
+    {
+     "code": "6056",
+     "ar": "مصلب بطيئ",
+     "desc": "مصلب بطيئ، مناسب للرش الجزئي والكامل فى درجات الحرارة العالية",
+     "line": "Dima",
+     "img": "assets/products/6056.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0019_6056.png"
+    },
+    {
+     "code": "5455",
+     "ar": "مصلب عادي",
+     "desc": "مصلب لفلر 5450 ومناسب للرش الكامل في درجات الحراره العاديه",
+     "line": "Latico",
+     "img": "assets/products/5455.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0072_5455.png"
+    },
+    {
+     "code": "5600",
+     "ar": "مصلب عادي",
+     "desc": "مصلب عادي مناسب للرش الكامل في درجات الحراره العاديه",
+     "line": "Latico",
+     "img": "assets/products/5600.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0103_5600.png"
+    },
+    {
+     "code": "5610",
+     "ar": "مصلب سريع",
+     "desc": "مصلب سريع مناسب للقطع المتوسطه في درجات حراراه منخفضه",
+     "line": "Latico",
+     "img": "assets/products/5610.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0085_5610.png"
+    },
+    {
+     "code": "5620",
+     "ar": "مصلب بطيئ",
+     "desc": "مصلب بطئ مناسب للرش الجزئي والكامل في درجات الحراراه العاليه",
+     "line": "Latico",
+     "img": "assets/products/5620.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0084_5620.png"
+    },
+    {
+     "code": "RC-55",
+     "ar": "RFX Hardener",
+     "desc": "is polyisocyanate based hardeners for 2K products. It is especially designed for Refinix 2K acrylic paints or Refinix MS clearcoats.",
+     "line": "Refinix",
+     "img": "assets/products/rc-55.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/06/Rc-55.png"
+    }
+   ]
+  },
+  {
+   "id": "thinners",
+   "group": "car",
+   "ar": "الثنرات",
+   "en": "Thinners",
+   "intro": "",
+   "products": [
+    {
+     "code": "8410",
+     "ar": "ثنر سريع",
+     "desc": "ثنر يونيفرسال يستخدم مع الإتش برايمر و دهان ثيرموبلاستيك أكريليك والورنيشات الثنائية والفلرات الثنائية والسيلرات والدهانات الأكريليك الثنائية والبيزكوت ومسئول عن...",
+     "line": "Prima",
+     "img": "assets/products/8410.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0050_8410-1L.png"
+    },
+    {
+     "code": "8420",
+     "ar": "ثنر عادي",
+     "desc": "ثنر يونيفرسال يستخدم مع الإتش برايمر و دهان ثيرموبلاستيك أكريليك والورنيشات الثنائية والفلرات الثنائية والسيلرات والدهانات الأكريليك الثنائية والبيزكوت ومسئول عن...",
+     "line": "Prima",
+     "img": "assets/products/8420.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0054_8420-1L.png"
+    },
+    {
+     "code": "8430",
+     "ar": "ثنر بطئ",
+     "desc": "ثنر يونيفرسال يستخدم مع الإتش برايمر و دهان ثيرموبلاستيك أكريليك والورنيشات الثنائية والفلرات الثنائية والسيلرات والدهانات الأكريليك الثنائية و..",
+     "line": "Prima",
+     "img": "assets/products/8430.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0041_8430-1L.png"
+    },
+    {
+     "code": "600",
+     "ar": "ثنر عادي",
+     "desc": "نر يونيفرسال يستخدم مع إتش برايمر أحادي، دهان ثيرموبلاستيك أكريليك TPA، الورنيشات الثنائيه، السيلرات، دهانات الثنائيه والبيز كوت ومسئول عن ضبط اللزوجة عند درجات الحرارة العادية من 20 م الى 25 مئوية",
+     "line": "Kapci",
+     "img": "assets/products/600.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0022_405576-600-1L-comp-Rev.01.png"
+    },
+    {
+     "code": "600F",
+     "ar": "ثنر سريع",
+     "desc": "ثنر يونيفرسال يستخدم مع إتش برايمر أحادي، دهان ثيرموبلاستيك أكريليك TPA، الورنيشات الثنائيه السيلرات، دهانات الثنائيه والبيز كوت ومسئول عن ضبط اللزوجة عند درجات الحرارة المنخفضة من 15 م الى 20 مئوية",
+     "line": "Kapci",
+     "img": "assets/products/600f.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0021_600F.png"
+    },
+    {
+     "code": "601",
+     "ar": "ثنر بطئ",
+     "desc": "ثنر يونيفرسال يستخدم مع إتش برايمر أحادي، دهان ثيرموبلاستيك أكريليك TPA، الورنيشات الثنائيه، السيلرات، دهانات الثنائيه والبيز كوت ومسئول عن ضبط اللزوجة عند درجات الحرارة أعلى من 30 درجة مئوية",
+     "line": "Kapci",
+     "img": "assets/products/601.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0023_407688-601-1L-EU-com-Rev01.png"
+    },
+    {
+     "code": "602",
+     "ar": "ثنر بطئ حدا",
+     "desc": "يستخدم مع إتش برايمر أحادي، دهان ثيرموبلاستيك أكريليك TPA، الورنيشات الثنائيه ، السيلرات، دهانات الثنائيه والبيز كوت ومسئول عن ضبط اللزوجة عند درجات الحرارة أعلى من 35 درجة مئوية",
+     "line": "Kapci",
+     "img": "assets/products/602.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0024_400370-602-1L-com-Rev.02.png"
+    },
+    {
+     "code": "608",
+     "ar": "ثنر سريع",
+     "desc": "ثنر يستخدم في كابسي فلر الثنائي 626",
+     "line": "Kapci",
+     "img": "assets/products/608.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/608.png"
+    },
+    {
+     "code": "611",
+     "ar": "ثنر المرمات",
+     "desc": "صمم خصيصا للعمل على المرمات عند استخدام الوان كابسي بيز 670، إنه يساعد على الحصول على سطح ناعم ومتجانس في المنطقة المجهزة للمرمة",
+     "line": "Kapci",
+     "img": "assets/products/611.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0025_611.png"
+    },
+    {
+     "code": "610",
+     "ar": "ثنر للميتالك",
+     "desc": "يستخدم فقط مع البيزكوت، حيث يساعد على ترتيب حبيبات الألومنيوم بعد الرش مما يعمل على إظهار تأثير حبيبات الألومنيوم ويعطيها بريقا ولمعانا ومظهرا رائعا",
+     "line": "Kapci",
+     "img": "assets/products/610.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0030_405567-610-1L-comp-Rev.01-1.png"
+    },
+    {
+     "code": "5550",
+     "ar": "ثنر عادي",
+     "desc": "ثنر يونيفرسال لمنتجات لاتيكو ومسئول عن ضبط اللزوجة عند درجات الحرارة العادية من 15 م الى 25 مئوية",
+     "line": "Latico",
+     "img": "assets/products/5550.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0083_5550.png"
+    },
+    {
+     "code": "5560",
+     "ar": "ثنر بطئ",
+     "desc": "ثنر يونيفرسال لمنتجات لاتيكو ومسئول عن ضبط اللزوجة عند درجات الحرارة أعلى من 30 درجة مئوية",
+     "line": "Latico",
+     "img": "assets/products/5560.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0079_5560.png"
+    },
+    {
+     "code": "RC45",
+     "ar": "ثنر عادي",
+     "desc": "Universal thinner for Refinix products. It adjusts the application viscosity at temperatures 15-25°C",
+     "line": "Refinix",
+     "img": "assets/products/rc45.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/07/RC-45.png"
+    },
+    {
+     "code": "RC46",
+     "ar": "ثنر بطئ",
+     "desc": "Universal thinner for Refinix products. It adjusts the application viscosity at temperatures above 30°C.",
+     "line": "Refinix",
+     "img": "assets/products/rc46.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/08/IMG_2183.png"
+    }
+   ]
+  },
+  {
+   "id": "clearcoats",
+   "group": "car",
+   "ar": "الورنيشات",
+   "en": "Clearcoats",
+   "intro": "",
+   "products": [
+    {
+     "code": "8860",
+     "ar": "ورنيش أريليك ثنائي عالي المحتوى الصلب",
+     "desc": "ورنيش أكريليك ثنائي (يحتاج مصلب ) ذو محتوى صلب عالي صمم خصيصا للتطبيق على البيزكوت",
+     "line": "Prima",
+     "img": "assets/products/8860.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/09/8860.png"
+    },
+    {
+     "code": "8870",
+     "ar": "ورنيش بريما سريع الجفاف",
+     "desc": "هو ورنيش ثنائي (بمصلب)، صمم بتكنولوجيا جديده تجعل المحتوى الصلب له عالى جدا كما تجعله سريع الجفاف، صمم خصيصا للتطبيق على البيز كوت سواء كان بريما ...",
+     "line": "Prima",
+     "img": "assets/products/8870.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0127_8870-1L.png"
+    },
+    {
+     "code": "8800",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت، ويتميز باللمعة العالية، جودة الأداء لفترات زمنية طويلة وقوة التحمل للظروف الخارجية ويستخدم مع مصلبات بريما",
+     "line": "Prima",
+     "img": "assets/products/8800.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/8800.png"
+    },
+    {
+     "code": "888",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/888.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0030_888.png"
+    },
+    {
+     "code": "3001",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/3001.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0029_405958-3001-1L-EU-square-can-Rev01.png"
+    },
+    {
+     "code": "3100",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/3100.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/04/3100-1.png"
+    },
+    {
+     "code": "3100",
+     "ar": "ورنيش مط أكريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت ولاعطاء تاثير مطفى للدهان، ويتميز بالمرونة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعدة سواء",
+     "line": "Kapci",
+     "img": "assets/products/3100-2.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/3100-1.png"
+    },
+    {
+     "code": "3150",
+     "ar": "ورنيش مط أكريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت ولاعطاء تاثير مطفى للدهان، ويتميز بالمرونة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/3150.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0028_3150.png"
+    },
+    {
+     "code": "3200",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت سواء كان كابسي أو لاتيكو، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/3200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0027_3200.png"
+    },
+    {
+     "code": "3300",
+     "ar": "ورنيش أكريليك ثنائي سريع الجفاف",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) سريع الجفاف ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيزكوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات كابسي المتعددة",
+     "line": "Kapci",
+     "img": "assets/products/3300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0029_407028-3300-2K-Clear-Coat-EU-5Le-LABEL-COMP-REV01.png"
+    },
+    {
+     "code": "6030",
+     "ar": "ورنيش أكريليك ثنائي عالي المحتوى الصلب",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب عالى، متوافق بيئيا",
+     "line": "Dima",
+     "img": "assets/products/6030.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0005_6030.png"
+    },
+    {
+     "code": "6040",
+     "ar": "ورنيش أريليك ثنائي عالي المحتوى الصلب",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب عالى مناسب لجميع أغراض الإصلاحات",
+     "line": "Dima",
+     "img": "assets/products/6040.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0006_6040.png"
+    },
+    {
+     "code": "6050",
+     "ar": "2K UHS Anti-Scratch Clearcoat VOC Compliant",
+     "desc": "هو ورنيش أكريليك ثنائي (بمصلب) ذو محتوى صلب عالي، مقاوم للخوش، ويتميز باللمعة العالية وقوة التحمل و...",
+     "line": "Dima",
+     "img": "assets/products/6050.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0007_6050.png"
+    },
+    {
+     "code": "6090",
+     "ar": "UHS Rapid Clearcoat – VOC Compliant",
+     "desc": "is a fast dry 2K clearcoat based on latest technologies delivering high solids content.",
+     "line": "Dima",
+     "img": "assets/products/6090.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/02/0005_6090.png"
+    },
+    {
+     "code": "5800",
+     "ar": "ورنيش أكريليك ثنائي",
+     "desc": "هو ورنيش أكريليك ثنائي صمم خصيصا للتطبيق على البيز كوت . ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات لاتيكو المتعدة سواء كان لاتيكو 5600 العادى أو 5610 السريع أو 5620 البطيئ",
+     "line": "Latico",
+     "img": "assets/products/5800.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0117_5800.png"
+    },
+    {
+     "code": "5850",
+     "ar": "ورنيش أكريليك ثنائي",
+     "desc": "هو ورنيش ثنائي (بمصلب) أكريليك صمم خصيصا للتطبيق على البيز كوت . ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات لاتيكو المتعدة سواء كان لاتيكو 5600 العادى أو 5610 السريع أو 5620 البطيئ",
+     "line": "Latico",
+     "img": "assets/products/5850.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0130_5850.png"
+    },
+    {
+     "code": "5860",
+     "ar": "ورنيش أكريليك ثنائي",
+     "desc": "هو ورنيش ثنائي (بمصلب) أكريليك صمم خصيصا للتطبيق على البيز كوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات لاتيكو المتعدة سواء كان لاتيكو 5600 العادى أو 5610 السريع أو 5620 البطيئ",
+     "line": "Latico",
+     "img": "assets/products/5860.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0129_5860.png"
+    },
+    {
+     "code": "5900",
+     "ar": "ورنيش أكريليك ثنائي",
+     "desc": "هو ورنيش ثنائي (بمصلب) أكريليك ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيز كوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلبات لاتيكو المتعدة سواء كان لاتيكو 5600 العادى أو 5610 السريع أو 5620..",
+     "line": "Latico",
+     "img": "assets/products/5900.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0088_5900.png"
+    },
+    {
+     "code": "5920",
+     "ar": "ورنيش أكريليك ثنائي",
+     "desc": "5920 هو ورنيش ثنائي (بمصلب) أكريليك ذو محتوى صلب متوسط صمم خصيصا للتطبيق على البيز كوت، ويتميز باللمعة العالية وقوة التحمل ويستخدم مع مصلب لاتيكو 5605",
+     "line": "Latico",
+     "img": "assets/products/5920.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/5920.png"
+    },
+    {
+     "code": "5950",
+     "ar": "ورنيش أكريليك ثنائي عالي المحتوى الصلب",
+     "desc": "هو ورنيش أكريليك ثنائي (يحتاج مصلب) ذو محتوى صلب عالي صمم خصيصا للتطبيق على البيز كوت سواء كان مائي أو يحتوي على مذيبات",
+     "line": "Latico",
+     "img": "assets/products/5950.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/5950-300x300-1.png"
+    },
+    {
+     "code": "RC 80",
+     "ar": "ورنيش أريليك ثنائي",
+     "desc": "is a 2K medium solids acrylic clearcoat especially formulated for applying over solvent-based basecoats. It gives high gloss and “water like” final appearance. It offers high durability and weathering resistance. When used in conjunction with Kapci MS hardeners RC55.",
+     "line": "Refinix",
+     "img": "assets/products/rc-80.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/06/RC-80.png"
+    }
+   ]
+  },
+  {
+   "id": "nitrocellulose-paints",
+   "group": "car",
+   "ar": "بويات النتروسيليلوز",
+   "en": "Nitrocellulose Paints",
+   "intro": "",
+   "products": [
+    {
+     "code": "200",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0029_200.png"
+    },
+    {
+     "code": "201",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/201.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0120_201.png"
+    },
+    {
+     "code": "205",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/205.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0033_205.png"
+    },
+    {
+     "code": "250",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/250.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0031_250.png"
+    },
+    {
+     "code": "255",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/255.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0031_255.png"
+    },
+    {
+     "code": "3500",
+     "ar": "دوكو دهان نتروسيليلوز",
+     "desc": "منتج تشطيب عالي الجوده ذات لمعه عاليه من اساس النتروسيليلوز ويتميز بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/3500.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0032_3500.png"
+    }
+   ]
+  },
+  {
+   "id": "synthetic-enamel-tpa",
+   "group": "car",
+   "ar": "سينثتك إينامل / ثروبلاستك أكريلك",
+   "en": "Synthetic Enamel / Thermoplastic Acrylic",
+   "intro": "",
+   "products": [
+    {
+     "code": "TPA",
+     "ar": "دهان أكريليك أحادي",
+     "desc": "هو دهان أكريليك أحادى (أي لا يحتاج مصلب للجفاف) ويستخدم فى دهان السيارات ويتم إنتاجه واستخدامه كدهان نهائي سواء الوان أو ورنيش",
+     "line": "Kapci",
+     "img": "assets/products/tpa.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0035_TPA.png"
+    },
+    {
+     "code": "SE",
+     "ar": "Synthetic Enamel",
+     "desc": "هو دهان أحادي (بدون مصلب) سريع الجفاف سينثيتيك من الألكيد صمم للدهان على أسطح المقطورات والجرارات و المعدات وغيرها، وبوجد منه...",
+     "line": "Kapci",
+     "img": "assets/products/se.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0034_SE.png"
+    }
+   ]
+  },
+  {
+   "id": "polishing",
+   "group": "car",
+   "ar": "منتجات تلميع السيارات",
+   "en": "Polishing Products",
+   "intro": "",
+   "products": [
+    {
+     "code": "K20",
+     "ar": "كمبوند خشن",
+     "desc": "هو كمبوند عالى الجودة ذو أساس مائي يستخدم لإازالة أثار الصنفرة 1200 أو الصنفرة الأنعم. كابسي K20 خالي من الشموع والسيليكون ويعطي لمعة عالية للسطح",
+     "line": "Kapci",
+     "img": "assets/products/k20.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0038_K20-bottle.png"
+    },
+    {
+     "code": "K40",
+     "ar": "كمبوند خشن",
+     "desc": "هو كمبوند عالى الجودة ذو أساس مائي يستخدم لإازالة أثار الصنفرة 2000 أو الصنفرة الأنعم. كابسي K40 خالي من الشموع والسيليكون ويعطي لمعة عالية للسطح",
+     "line": "Kapci",
+     "img": "assets/products/k40.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0039_K40-bottle.png"
+    },
+    {
+     "code": "K60",
+     "ar": "كمبوند ناعم",
+     "desc": "هو كمبوند عالى الجودة ذو أساس مائي يستخدم كمرحلة ثالثة بعد إستخدام K20 و K40 أو بعد إستخدام K40 فقط. كابسي K60 خالي من الشموع والسيليكون ويعطي لمعة عالية للسطح",
+     "line": "Kapci",
+     "img": "assets/products/k60.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0040_K60-bottle.png"
+    },
+    {
+     "code": "K80",
+     "ar": "ملمع",
+     "desc": "هو ملمع من أفضل أنواع الشموع يستخدم للحصول على أعلى لمعة بعد تطبيق كمبوند كابسي K20 أو K40 أو لاتيكو 5000",
+     "line": "Kapci",
+     "img": "assets/products/k80.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0041_K80-bottle.png"
+    },
+    {
+     "code": "K10",
+     "ar": "كمبوند خشن",
+     "desc": "هو كمبوند عالى الجودة ذو أساس مائي يستخدم لإازالة أثار الصنفرة 1500 أو الصنفرة الأنعم. كابسي K10 خالي من الشموع والسيليكون ويعطي لمعة عالية للسطح",
+     "line": "Kapci",
+     "img": "assets/products/k10.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/k10-1.png"
+    },
+    {
+     "code": "K15",
+     "ar": "كمبوند خشن",
+     "desc": "هو كمبوند عالى الجودة ذو أساس مائي يستخدم لإازالة أثار الصنفرة 1200 أو الصنفرة الأنعم. كابسي K15 خالي من الشموع والسيليكون ويعطي لمعة عالية للسطح",
+     "line": "Kapci",
+     "img": "assets/products/k15.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0036_K15.png"
+    },
+    {
+     "code": "K16",
+     "ar": "كمبوند خشن",
+     "desc": "is a paste fast cut compound used for the removal of P1200 or finer sanding scratches.",
+     "line": "Kapci",
+     "img": "assets/products/k16.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2026/07/K16-1L.png"
+    },
+    {
+     "code": "K90",
+     "ar": "ملمع",
+     "desc": "هو ملمع من أفضل أنواع الشموع يستخدم للحصول على أعلى لمعة بعد تطبيق كمبوند كابسي K10 أو K15 أو لاتيكو 5000",
+     "line": "Kapci",
+     "img": "assets/products/k90.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/0037_K90.png"
+    },
+    {
+     "code": "5000",
+     "ar": "كمبوند خشن",
+     "desc": "كمبوند عالي الجوده ذو أساس مائي يستخدم لازاله اثار الصنفره 1500 أو الصنفره الانعم، لاتيكو 5000...",
+     "line": "Latico",
+     "img": "assets/products/5000.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0020_L5000.png"
+    },
+    {
+     "code": "5050",
+     "ar": "ملمع",
+     "desc": "هو ملمع من افضل أنواع الشموع يستخدم للحصول على أعلى لمعه بعد تطبيق كمبوند كابسي10أو20",
+     "line": "Latico",
+     "img": "assets/products/5050.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0022_L5050.png"
+    }
+   ]
+  },
+  {
+   "id": "spot-repair",
+   "group": "car",
+   "ar": "مادة للمرمات",
+   "en": "Spot Repair",
+   "intro": "",
+   "products": [
+    {
+     "code": "9611",
+     "ar": "للمرمات",
+     "desc": "هو منتج صمم خصيصا لعملية المرمات الخاصة بالوان كابسى ديما 9670 المائى . انه يساعد على الحصول على سطح ناعم ومتجانس فى منطقة المرمات مع طبقة الدهان القديم",
+     "line": "Dima",
+     "img": "assets/products/9611.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/9611.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-nitrocellulose",
+   "group": "wood",
+   "ar": "النتروسيليلوز",
+   "en": "Nitrocellulose (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2000",
+     "ar": "سيلر نتروسيليلوز",
+     "desc": "سيلر نتروسليلوز شفاف ذو لزوجة عالية وسرعة في الجفاف.يستخدم لحماية الأثاث والأسطح والأعمال الخشبية الداخلية",
+     "line": "Kapci",
+     "img": "assets/products/2000.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0091_2000.png"
+    },
+    {
+     "code": "2000MV",
+     "ar": "سيلر نتروسيليلوز",
+     "desc": "سيلر نتروسليلوز شفاف ذو لزوجة متوسطة وسرعة في الجفاف يستخدم لحماية الأثاث والأسطح والأعمال الخشبية الداخلية",
+     "line": "Kapci",
+     "img": "assets/products/2000mv.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0061_2000-MV.png"
+    },
+    {
+     "code": "2000DF",
+     "ar": "سيلر نتروسيليلوز",
+     "desc": "سيلر نتروسيليلوزي منخفض اللزوجه شفاف يتميز بسرعه الجفاف ويستخدم لحمايه الأسطح الخشبيه المختلفه",
+     "line": "Kapci",
+     "img": "assets/products/2000df.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0039_2000-df.png"
+    },
+    {
+     "code": "2000S",
+     "ar": "سيلر نتروسيليلوزي",
+     "desc": "سيلر نتروسليلوز شفاف ذو لزوجة عالية وسرعة في الجفاف.يستخدم لحماية الأثاث والأسطح والأعمال الخشبية الداخلية",
+     "line": "Kapci",
+     "img": "assets/products/2000s.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0102_2000S.png"
+    },
+    {
+     "code": "460",
+     "ar": "سيرفيسر نتروسيليلوزي",
+     "desc": "سيرفيسر نترو سليلوز سريع الجفاف وله قدرة عالية علي ملئ المسام يستخدم للاسطح الخشبية المختلفة خاصة الواح MDF , HDF (حيث لا يظهر تأثير قشرة الاخشاب",
+     "line": "Kapci",
+     "img": "assets/products/460.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0099_460.png"
+    },
+    {
+     "code": "465",
+     "ar": "سيرفيسر نتروسيليلوزي",
+     "desc": "سيرفيسر نترو سليلوز سريع الجفاف وله قدرة عالية علي ملئ المسام يستخدم للاسطح الخشبية المختلفة خاصة الواح MDF , HDF (حيث لا يظهر تأثير قشرة الاخشاب)",
+     "line": "Kapci",
+     "img": "assets/products/465.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0058_465.png"
+    },
+    {
+     "code": "2001",
+     "ar": "ورنيش نتروسليلوزي لامع",
+     "desc": "ورنيش نيتروسليلوز عالي اللمعة سريع الجفاف يستخدم لحماية الأثاث والأدوات والأشغال الخشبية الداخلية . يستخدم للأسطح الخشبية الغير معرضة للتأثيرات الميكانيكية أو...",
+     "line": "Kapci",
+     "img": "assets/products/2001.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0059_2001-Gloss.png"
+    },
+    {
+     "code": "2001 M",
+     "ar": "ورنيش نتروسيليوز مط",
+     "desc": "ورنيش نيتروسليلوز مطفي سريع الجفاف يستخدم لحماية الأثاث والأدوات والأشغال الخشبية الداخلية . يوصى به للأسطح الخشبية الغير معرضة للتأثيرات الميكانيكية أو ...",
+     "line": "Kapci",
+     "img": "assets/products/2001-m.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0065_2001-Matt.png"
+    },
+    {
+     "code": "260",
+     "ar": "دهان نتروسيليلوز ميتالك",
+     "desc": "هو منتج تشطيب عالي الجودة ذو لمعه عالية من اساس النتروسيليلوز . يتميز هذا المنتج بسرعه الجفاف والتغطيه الممتازه",
+     "line": "Kapci",
+     "img": "assets/products/260.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0057_260.png"
+    },
+    {
+     "code": "WS650M/V",
+     "ar": "سيلر نتروسيليلوزي - متوسط اللزوجة",
+     "desc": "هو سيلر نتروسيليوزي متوسط اللزوجة شفاف يتيمز بسرعه الجفاف ويتميز بنعومته وقدرته على ملئ السطح",
+     "line": "Kapci System",
+     "img": "assets/products/ws650m-v.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0043_ws650-c1-copy.png"
+    },
+    {
+     "code": "WS690",
+     "ar": "سيرفيسر نيتروسيليلوزي ابيض",
+     "desc": "سيرفيسر نتروسليلوزي سريع الجفاف سهل الصنفرة ذو قدرة عالية علي ملئ مسام الخشب يستخدم للاسطح الخشبية المختلفة خاصة الواح MDF , HDF (حيث لا يظهر تأثير قشرة الاخشاب الطبيعية)",
+     "line": "Kapci System",
+     "img": "assets/products/ws690.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0042_ws690-c1.png"
+    },
+    {
+     "code": "WS605",
+     "ar": "ورنيش نتروسيليلوز لامع",
+     "desc": "ورنيش نتروسيليلوزي عالي اللمعة يستخدم في دهان الأثاث المنزلي والأبواب . يعطي هذا الورنيش سطح ناعم عالي اللمعة، ويستخدم للأسطح الخشبية غير المعرضة للحرارة والعوامل الكيميائية",
+     "line": "Kapci System",
+     "img": "assets/products/ws605.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0038_ws605-c1.png"
+    },
+    {
+     "code": "WS200",
+     "ar": "دهان أحادي ميتاليك وتأثيرات الخاصه",
+     "desc": "توفر مظهر الخشب اللامع والرائع والمتألق. يمكن استخدام WS 200 كلون طلاء أساسي وحيد أو يمكن مزجه مع طلاء WS 250 أحادي",
+     "line": "Kapci System",
+     "img": "assets/products/ws200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0053_WS200-c1-copy.png"
+    },
+    {
+     "code": "WS250",
+     "ar": "دهان نهائي أحادي",
+     "desc": "يمنحنا العديد من الدهانات النهائية وتكون مناسبة للتطبيق على جميع الأسطح الخشبية وللاستخدام الداخلي والخاريجي.",
+     "line": "Kapci System",
+     "img": "assets/products/ws250.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0044_WS250-c1-copy.png"
+    },
+    {
+     "code": "6300",
+     "ar": "سيلر نتروسليلوزي",
+     "desc": "سيلر نتروسليلوز شفاف سريع الجفاف يستخدم لحماية الأثاث والاسطح والاشغال الخشبية داخلياً. يتميز بقدرته العالية علي غلق مسام الخشب والسطح الجيد وسرعة الجفاف وسهولة الصنفرة",
+     "line": "Latico",
+     "img": "assets/products/6300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0011_6300.png"
+    },
+    {
+     "code": "6160",
+     "ar": "سيلر نتروسليلوزي أبيض",
+     "desc": "سيرفيسر نترو سليلوز ابيض او رمادي ذو قدرة عالية علي ملئ مسام الخشب سهل الصنفرة يستخدم كطبقة تأسيس قبل الدهان النهائي يتميز بقدرته العالية علي التغطية والسطح المستوي وقوة الالتصاق الجيدة علي انواع...",
+     "line": "Latico",
+     "img": "assets/products/6160.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0009_6160.png"
+    },
+    {
+     "code": "6200",
+     "ar": "ورنيش سينثيتك سريع الجفاف للاسطح الداخليه",
+     "desc": "تيربو - ورنيش صناعي شفاف سريع الجفاف يستخدم للاسطح الداخلية من الأثاث معدل الفرد: 4-6 م2/ك لكل طبقة دهان",
+     "line": "Latico",
+     "img": "assets/products/6200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/403138-6200-Turbo-Fast-Varnish-1Kg-Label-Re01.png"
+    },
+    {
+     "code": "6500",
+     "ar": "ورنيش نيتروسليلوزي لامع",
+     "desc": "عبارة عن طبقة شفافة من النيتروسليلوز شديدة اللمعان تستخدم لحماية الأثاث والمواد الخشبية والأعمال الخشبية الداخلية...",
+     "line": "Latico",
+     "img": "assets/products/6500.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0006_6500.png"
+    },
+    {
+     "code": "6400",
+     "ar": "دوكو",
+     "desc": "دهانات نتروسليلوز ملونة عالية اللمعة تتميز بسرعة الجفاف والقدرة العالية علي التغطية معدل الفرد: 5-6 م2/ك لكل طبقة دهان",
+     "line": "Latico",
+     "img": "assets/products/6400.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0003_6400.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-synthetic",
+   "group": "wood",
+   "ar": "سينثيتك",
+   "en": "Synthetic (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2002",
+     "ar": "Gloss CLEARCOAT",
+     "desc": "ورنيش نيتروسليلوز مطفي سريع الجفاف يستخدم لحماية الأثاث والأدوات والأشغال الخشبية الداخلية . يوصى به للأسطح الخشبية الغير معرضة للتأثيرات الميكانيكية أو ...",
+     "line": "Kapci",
+     "img": "assets/products/2002.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2024/02/Untitled-2_0059_2002-Gloss.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-polyester",
+   "group": "wood",
+   "ar": "البولي إستر",
+   "en": "Polyester (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2200",
+     "ar": "سيلر بولي إستر شفاف",
+     "desc": "سيلر بولي استر شفاف يستخدم لحماية الأثاث والأسطح الخشبية الداخلية. يتميز بقدرته الفائقة علي ملئ مسام الخشب وسهولة الصنفرة والسطح الجيد والبنية العالية",
+     "line": "Kapci",
+     "img": "assets/products/2200.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/12/2200-1-300x300-1-2.png"
+    },
+    {
+     "code": "2200",
+     "ar": "سيلر بولي إستر أبيض",
+     "desc": "سيلر بولي استر أبيض يستخدم لحماية الأثاث والأسطح الخشبية الداخلية. يتميز بقدرته الفائقة علي ملئ مسام الخشب وسهولة الصنفرة والسطح الجيد والبنية العالية",
+     "line": "Kapci",
+     "img": "assets/products/2200-2.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/12/2200-1-300x300-1-1.png"
+    },
+    {
+     "code": "2250",
+     "ar": "بولي إستر بارافين شفاف",
+     "desc": "بولي استر شفاف يحتوي على شمع البارافين. يمكن تطبيقه في عدة طبقات علي الاسطح الخشبية. يعطي سمك عالي ومرونة وثبات ولمعة عالية. يتميز بقدرته العالية علي ملئ...",
+     "line": "Kapci",
+     "img": "assets/products/2250.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0133_2250.png"
+    },
+    {
+     "code": "WS700",
+     "ar": "سيلر بولي إستر شفاف",
+     "desc": "سيلر بوليستر شفاف او أبيض خالي من البارافين يستخدم لحماية الأثاث والأسطح الخشبية الداخلية. يتميز بقدرته العالية علي ملئ مسام الخسب وسهولة الصنفرة والسطح الجيد المستوي والسُمك العالي",
+     "line": "Kapci System",
+     "img": "assets/products/ws700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0137_406049-WS700-POLYESTER-SEALER_9Kg-Can-Rev02.png"
+    },
+    {
+     "code": "WS300",
+     "ar": "صبغه أخشاب",
+     "desc": "صبغات أخشاب مركزة تعتمد على المذيبات. صممت خصيصًا لتلوين الأسطح الخشبية قبل تطبيق النيتروسليلوز والاصطناعي والبوليستر والبولي يوريثان الشفاف عند الرغبة في المظهر الطبيعي للخشب",
+     "line": "Kapci System",
+     "img": "assets/products/ws300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0062_WS-300-صبغه.png"
+    },
+    {
+     "code": "WS320",
+     "ar": "هارمونيزنج إيجنت",
+     "desc": "يستخدم مع صبغات الاخشاب Kapci 2800 من أجل تعزيز خصائص التناسق لصبغة الخشب وتكثيف لزوجة الصبغة المستخدمة وتقليل الامتصاص الزائد على سطح قشرة الاخشاب.",
+     "line": "Kapci System",
+     "img": "assets/products/ws320.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/ws320.png"
+    },
+    {
+     "code": "6800",
+     "ar": "سيلر بولي إستر شفاف",
+     "desc": "سيلر بولي استر شفاف او ابيض يستخدم لحماية الأثاث والأسطح والأشغال الخشبية الداخلية. يتميز بقدرة عالية علي ملئ مسام الخشب وصنفرة ممتازة وتسوية جيدة للسطح و سمك عالي علي الخشب",
+     "line": "Latico",
+     "img": "assets/products/6800.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0001_6800-16.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-polyurethane",
+   "group": "wood",
+   "ar": "البولي يوريثان",
+   "en": "Polyurethane (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2100",
+     "ar": "عازل بولي يوريثان",
+     "desc": "عازل شفاف من البولي يوريثان مكون من مركبين للاستخدام على الأسطح الخشبية المسامية. تم تصميم المنتج خصيصًا للتطبيق على أنواع الأخشاب..",
+     "line": "Kapci",
+     "img": "assets/products/2100.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2100.png"
+    },
+    {
+     "code": "2150",
+     "ar": "سيلر بولي يوريثان",
+     "desc": "سيلر بولي يوريثان شفاف مكون من مركبين يتميز بقدرته العالية علي ملئ مسام الخشب وسهولة الصنفرة",
+     "line": "Kapci",
+     "img": "assets/products/2150.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2150.png"
+    },
+    {
+     "code": "2130",
+     "ar": "سيرفيسر نيتروسيليلوزي ابيض",
+     "desc": "سيرفيسر بولي يوريثان ابيض مكون من مركبين يتميز بقدرته العالية علي التغطية وملئ مسام الخشب وسهولة الصنفرة",
+     "line": "Kapci",
+     "img": "assets/products/2130.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2130.png"
+    },
+    {
+     "code": "2010",
+     "ar": "ورنيش نتروسيليلوز لامع",
+     "desc": "ورنيش شفاف مصنع من اجود انواع الراتنجات الألكيد واليوريثان مكون من مركب واحد ذو لمعة عالية ومقاومة كيميائية ومقاومة للخدش ممتازة",
+     "line": "Kapci",
+     "img": "assets/products/2010.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0030_2010.png"
+    },
+    {
+     "code": "2300",
+     "ar": "ورنيش بولي يوريثان ثنائي لامع",
+     "desc": "ورنيش بولي يوريثان لامع شفاف مكون من مركبين يستخدم للأثاث والاسطح الخشبية له مقاومة جيدة للاحتكاك ومقاوم للكيماويات والتغير في درجات...",
+     "line": "Kapci",
+     "img": "assets/products/2300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0097_2300.png"
+    },
+    {
+     "code": "2320",
+     "ar": "دبل فانكشن بولي يوريثان",
+     "desc": "هو دهان بولي يوريثان يمكن استخدامه كأساس كما يمكن استخدامه كادهان نهائي",
+     "line": "Kapci",
+     "img": "assets/products/2320.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0123_2320.png"
+    },
+    {
+     "code": "2350",
+     "ar": "ورنيش بولي يورثان ثنائي لامع",
+     "desc": "ورنيش بولي يوريثان لامع شفاف مكون من مركبين يستخدم للأثاث والاسطح الخشبية له مقاومة جيدة للاحتكاك ومقاوم للكيماويات والتغير في درجات الحرارة",
+     "line": "Kapci",
+     "img": "assets/products/2350.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0122_2350.png"
+    },
+    {
+     "code": "2600",
+     "ar": "ورنيش بولي يورثان أحادي مط",
+     "desc": "ورنيش بولي يورثان معدل أحادي مط يستخدم في دهان الاسطح الخشبيه التي لا تتعرض لظروف جويه خارجيه مثل الابواب والاثاث المنزلي",
+     "line": "Kapci",
+     "img": "assets/products/2600.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/2600-1.png"
+    },
+    {
+     "code": "2620",
+     "ar": "ورنيش بولي يورثان أحادي لامع",
+     "desc": "ورنيش بولي يورثان معدل أحادي مط يستخدم في دهان الاسطح الخشبيه التي لا تتعرض لظروف جويه خارجيه مثل الابواب والاثاث المنزلي وغيرها أيضا",
+     "line": "Kapci",
+     "img": "assets/products/2620.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/2620.png"
+    },
+    {
+     "code": "2650",
+     "ar": "ورنيش بولي يوريثان أحادي",
+     "desc": "ورنيش بولي يوريثان مط مكون من مركب واحد يستخدم لحماية الاسطح الخشبية الداخلية والخارجية يستخدم للاسطح الخارجية مثل الابواب والبوابات والاسوار والشبابيك واثاث الحدائق",
+     "line": "Kapci",
+     "img": "assets/products/2650.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/2650.png"
+    },
+    {
+     "code": "2670",
+     "ar": "ورنيش بولي يورثان أحادي لامع",
+     "desc": "ورنيش بولي يوريثان لامع مكون من مركب واحد يستخدم لحماية الاسطح الخشبية الداخلية والخارجية يستخدم للاسطح الخارجية مثل الابواب والبوابات والاسوار والشبابيك واثاث الحدائق",
+     "line": "Kapci",
+     "img": "assets/products/2670.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/2670.png"
+    },
+    {
+     "code": "2170",
+     "ar": "سيلر أكريليك بولي يوريثان - للأسطح الخارجيه",
+     "desc": "هو سيلير أكريليك بولي يوريثان شفاف ذو قدرة على ملئ السطح كما يتيمز بسهوله الصنفرة",
+     "line": "Kapci",
+     "img": "assets/products/2170.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2170.png"
+    },
+    {
+     "code": "2125",
+     "ar": "مصلب",
+     "desc": "مناسب للعازل كابسي 2100 - أنظر النشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2125.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2125.png"
+    },
+    {
+     "code": "2135",
+     "ar": "مصلب",
+     "desc": "مناسب للسيرفيسر كابسي 2130 - أنظر النشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2135.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2135.png"
+    },
+    {
+     "code": "2155",
+     "ar": "مصلب",
+     "desc": "Suitable for sealer 2150 – refer to technical data sheet of the base product",
+     "line": "Kapci",
+     "img": "assets/products/2155.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/08/2155.png"
+    },
+    {
+     "code": "2310",
+     "ar": "مصلب",
+     "desc": "مناسب للورنيش كابسي 2300 - أنظر النشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2310.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0173_2310.png"
+    },
+    {
+     "code": "2450",
+     "ar": "ثنر عادي",
+     "desc": "مناسب للتطبيق مع منتجات البولي يوريثان كالورنيشات والسيلرات ودهان WS100",
+     "line": "Kapci",
+     "img": "assets/products/2450.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0034_2450.png"
+    },
+    {
+     "code": "2365",
+     "ar": "مصلب",
+     "desc": "مناسب للورنيش كابسي 2350 - أنظر النشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2365.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0172_2365.png"
+    },
+    {
+     "code": "2410",
+     "ar": "مصلب",
+     "desc": "مناسب للورنيش كابسي 2400 - أنظر النشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2410.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0171_2410.png"
+    },
+    {
+     "code": "2460",
+     "ar": "ثنر بطئ",
+     "desc": "مناسب للتطبيق مع منتجات البولي يوريثان كالورنيشات والسيلرات ودهان WS100",
+     "line": "Kapci",
+     "img": "assets/products/2460.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0035_2460.png"
+    },
+    {
+     "code": "WS500",
+     "ar": "سيلر بولي يوريثان",
+     "desc": "سيلر بولي يوريثان شفاف يتكون من مركبين يتميز بقدرته العالية علي ملئ مسام الخشب وسهولة الصنفرة يستخدم كطبقة تأسيس علي الاسطح الخشبية قبل تطبيق ورنيشات كابسي الشفافة",
+     "line": "Kapci System",
+     "img": "assets/products/ws500.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0128_WS500-c1.png"
+    },
+    {
+     "code": "WS400",
+     "ar": "ورنيش بولي يوريثان ثنائي لامع",
+     "desc": "ورنيش بولي يوريثان شفاف عالي اللمعة يتكون من مركبين يستخدم للأثاث والأسطح الخشبية يتميز بمقاومة جيدة للاحتكاك والكيماويات المنزلية والتغيرات في درجات الحرارة",
+     "line": "Kapci System",
+     "img": "assets/products/ws400.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0125_WS400-c1.png"
+    },
+    {
+     "code": "WS420",
+     "ar": "ورنيش بولي يورثان ثنائي لامع",
+     "desc": "ورنيش بولي يوريثان شفاف عالي اللمعة يتكون من مركبين يستخدم للأثاث والأسطح الخشبية يتميز بمقاومة جيدة للاحتكاك والكيماويات المنزلية والتغيرات في درجات الحرارة",
+     "line": "Kapci System",
+     "img": "assets/products/ws420.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0094_ws420-c1-copy.png"
+    },
+    {
+     "code": "WS430",
+     "ar": "ورنيش بولي يوريثان ثنائي مط",
+     "desc": "ورنيش بولي يوريثان شفاف مطفي يتكون من مركبين يستخدم للأثاث والأسطح الخشبية يتميز بسطح جيد مستوي وملمس ناعم وبمقاومة جيدة للاحتكاك واالكيماويات المنزلية والتغيرات في درجات الحرارة",
+     "line": "Kapci System",
+     "img": "assets/products/ws430.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0090_ws430-c1-copy.png"
+    },
+    {
+     "code": "WS150",
+     "ar": "مصلب",
+     "desc": "مناسب لكابسي WS100 - أنظر للنشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci System",
+     "img": "assets/products/ws150.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0086_ws150-c1.png"
+    },
+    {
+     "code": "6700",
+     "ar": "ورنيش بولي يوريثان ثنائي لامع داخلي",
+     "desc": "هو طلاء شفاف عالي اللمعان بولي يوريثان ثنائي يستخدم لإنهاء الأثاث والأغراض الخشبية عندما تكون جيدة ...",
+     "line": "Latico",
+     "img": "assets/products/6700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0007_6700.png"
+    },
+    {
+     "code": "6750",
+     "ar": "ورنيش بولي يوريثان ثنائي لامع داخلي",
+     "desc": "سيلر بولي استر شفاف او ابيض يستخدم لحماية الأثاث والأسطح والأشغال الخشبية الداخلية. يتميز بقدرة عالية علي ملئ مسام الخشب وصنفرة ممتازة وتسوية جيدة للسطح و سمك عالي علي..",
+     "line": "Latico",
+     "img": "assets/products/6750.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/6750.png"
+    },
+    {
+     "code": "6730",
+     "ar": "ورنيش أكريلي بولي يوريثان ثنائي داخلي",
+     "desc": "ورنيش أكريليك بولي يوريثان ثنائي لامع يستخدم للاثاث والاسطح الخشبيه الخارجيه للحمايه من الكيماويات الخارجيه والنغيرات في درجات الحراره والعوامل الميكانيكيه وغيرها",
+     "line": "Latico",
+     "img": "assets/products/6730.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/6730.png"
+    },
+    {
+     "code": "6740",
+     "ar": "ورنيش أكريلي بولي يوريثان ثنائي داخلي",
+     "desc": "ورنيش أكريليك بولي يوريثان ثنائي لامع يستخدم للاثاث والاسطح الخشبيه الخارجيه للحمايه من الكيماويات الخارجيه والنغيرات في درجات الحراره والعوامل الميكانيكيه وغيرها",
+     "line": "Latico",
+     "img": "assets/products/6740.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/6740.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-acrylic",
+   "group": "wood",
+   "ar": "أكريليك",
+   "en": "Acrylic (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2760",
+     "ar": "ورنيش بولي يوريثان ثنائي مط",
+     "desc": "ورنيش اكريلك شفاف مط مكون من مركبين يستخدم لحماية الأثاث والاسطح الخشبية الخارجية",
+     "line": "Kapci",
+     "img": "assets/products/2760.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0105_2760.png"
+    },
+    {
+     "code": "2770",
+     "ar": "ورنيش بولي يوريثان ثنائي لامع",
+     "desc": "ورنيش اكريلك شفاف عالي اللمعة مكون من مركبين يستخدم لحماية الأثاث والاسطح الخشبية الخارجية",
+     "line": "Kapci",
+     "img": "assets/products/2770.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0106_2770.png"
+    },
+    {
+     "code": "2780",
+     "ar": "مصلب",
+     "desc": "مناسب للورنيش الاكريليك 2760 و2770 - أنظر للنشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2780.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0068_2780.png"
+    },
+    {
+     "code": "2340",
+     "ar": "ورنيش أكريليك بولي يوريثان ثنائي لامع",
+     "desc": "ورنيش اكريلك شفاف عالي اللمعة مكون من مركبين يستخدم للأثاث والاسطح الخشبية له مقاومة جيدة للاحتكاك ومقاوم للكيماويات و...",
+     "line": "Kapci",
+     "img": "assets/products/2340.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0096_2340.png"
+    },
+    {
+     "code": "2430",
+     "ar": "ورنيش أكريليك بولي يوريثان ثنائي مط",
+     "desc": "ورنيش اكريلك شفاف مطفي مكون من مركبين يستخدم للأثاث والاسطح الخشبية له ملمس ناعم ومقاوم للكيماويات والتغير في درجات الحرارة",
+     "line": "Kapci",
+     "img": "assets/products/2430.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0095_2430.png"
+    },
+    {
+     "code": "2375",
+     "ar": "مصلب",
+     "desc": "مناسب لدهان كابسي 2370- أنظر للنشره الفنيه للمنتج الرئيسي",
+     "line": "Kapci",
+     "img": "assets/products/2375.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0078_2375-copy.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-waterbased",
+   "group": "wood",
+   "ar": "دهانات مائية",
+   "en": "Water-based (Wood)",
+   "intro": "",
+   "products": [
+    {
+     "code": "2180",
+     "ar": "سيلر مائي",
+     "desc": "سيلر شفاف ذو اساس مائي له قدرة عالية علي ملئ مسام الخشب وسهل الصنفرة. يستخدم لغلق مسام الاسطح الخشبية قبل تطبيق ورنيشات كابسي ذات الاساس المائي",
+     "line": "Kapci",
+     "img": "assets/products/2180.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0016_2180.png"
+    },
+    {
+     "code": "2700",
+     "ar": "ورنيش مائي أحادي مط",
+     "desc": "ورنيش شفاف مط ذو اساس مائي يتميز بمقاومة عالية للكيماويات المنزلية عندما يتم تطبيقه مع السيلر المائي كابسي 2180",
+     "line": "Kapci",
+     "img": "assets/products/2700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0150_2700.png"
+    },
+    {
+     "code": "2720",
+     "ar": "ورنيش نتروسيليلوز لامع",
+     "desc": "ورنيش شفاف عالي اللمعة ذو اساس مائي يتميز بمقاومة عالية للكيماويات المنزلية عندما يتم تطبيقه مع السيلر المائي كابسي 2180",
+     "line": "Kapci",
+     "img": "assets/products/2720.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0149_2720.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-stains",
+   "group": "wood",
+   "ar": "صبغة أخشاب",
+   "en": "Wood Stains",
+   "intro": "",
+   "products": [
+    {
+     "code": "2800",
+     "ar": "صبغه أخشاب",
+     "desc": "صبغات اخشاب مركزة . مصممة خصيصًا لتلوين الأسطح الخشبية قبل تطبيق التشطيبات الشفافة من النيتروسليلوز او البوليستر او البولي يوريثان وذلك عندما يكون المظهر الطبيعي للخشب مرغوبًا",
+     "line": "Kapci",
+     "img": "assets/products/2800.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/2800-1.png"
+    },
+    {
+     "code": "2820",
+     "ar": "صبغه أخشاب",
+     "desc": "صبغات اخشاب مركزة . مصممة خصيصًا لتلوين الأسطح الخشبية قبل تطبيق التشطيبات الشفافة من النيتروسليلوز او البوليستر او البولي يوريثان وذلك عندما يكون المظهر الطبيعي للخشب مرغوبًا",
+     "line": "Kapci",
+     "img": "assets/products/2820.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0073_2820.png"
+    },
+    {
+     "code": "6060",
+     "ar": "صبغه أخشاب",
+     "desc": "صبغات اخشاب مركزة . مصممة خصيصًا لتلوين الأسطح الخشبية قبل تطبيق التشطيبات الشفافة من النيتروسليلوز او البوليستر او البولي يوريثان وذلك عندما يكون المظهر الطبيعي للخشب مرغوبًا",
+     "line": "Latico",
+     "img": "assets/products/6060.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/6060-1.png"
+    }
+   ]
+  },
+  {
+   "id": "wood-glue",
+   "group": "wood",
+   "ar": "الغراء",
+   "en": "Wood Glue",
+   "intro": "",
+   "products": [
+    {
+     "code": "G10",
+     "ar": "غراء أبيض",
+     "desc": "عباره عن ماده لاصقه للخشب مصنوعه من أسيتات البولي فينيل تم تحفيزها مسبقا لتكون جاهزه للأستخدام",
+     "line": "Kapci",
+     "img": "assets/products/g10.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0048_g10.png"
+    },
+    {
+     "code": "G15",
+     "ar": "غراء",
+     "desc": "عباره عن ماده لاصقه للخشب مصنوعه من أسيتات البولي فينيل تم تحفيزها مسبقا لتكون جاهزه للأستخدام",
+     "line": "Kapci",
+     "img": "assets/products/g15.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0101_G15.png"
+    }
+   ]
+  },
+  {
+   "id": "building-oil-paints",
+   "group": "building",
+   "ar": "دهانات زيتية",
+   "en": "Oil (Alkyd) Paints",
+   "intro": "",
+   "products": [
+    {
+     "code": "333",
+     "ar": "لاكيه إليجانت لامع",
+     "desc": "is a one-pack alkyd gloss enamel finish coat. It provides a durable finish with with good gloss retention…",
+     "line": "Kapci",
+     "img": "assets/products/333.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0116_333.png"
+    },
+    {
+     "code": "444",
+     "ar": "إليجانت مط",
+     "desc": "دهان الكيد سريع الجفاف مناسب لجميع التطبيقات على الاسطح الداخليه والخارجيه من المعادن والخشب والجدران بعد تجهيز البطانه الخاصه به",
+     "line": "Kapci",
+     "img": "assets/products/444.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0118_444.png"
+    },
+    {
+     "code": "777",
+     "ar": "كابسي لوكس لامع",
+     "desc": "عبارة عن طبقة طلاء نهائية من طلاء الألكيد اللامع. يوفر لمسة نهائية متينة مع الاحتفاظ الجيد باللمعان.",
+     "line": "Kapci",
+     "img": "assets/products/777.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0109_777-1L.png"
+    },
+    {
+     "code": "770",
+     "ar": "كابسي إلجنت نصف لامع",
+     "desc": "هو مينا شبه لامع سريع التجفيف بالهواء ومناسب لجميع التطبيقات على المعادن والخشب والجدران.",
+     "line": "Kapci",
+     "img": "assets/products/770.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2025/10/WhatsApp-Image-2023-02-26-at-10.32.12-AM-1-1.png"
+    },
+    {
+     "code": "766",
+     "ar": "كابسي سوبر مط",
+     "desc": "عبارة عن طبقة طلاء نهائية من طلاء الألكيد غير اللامع. يوفر لمسة نهائية متينة.",
+     "line": "Kapci",
+     "img": "assets/products/766.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0104_766.png"
+    },
+    {
+     "code": "700",
+     "ar": "لامع",
+     "desc": "دهان سيثيتك لامع يجف بالهواء مناسب لجميع التطبيقات على المعادن والخشب والجدران بعد تجهيز السطح بالبرايمر المناسب",
+     "line": "Latico",
+     "img": "assets/products/700.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0151_700-2.5L.png"
+    },
+    {
+     "code": "711",
+     "ar": "كابسي سوبر مط",
+     "desc": "دهان سينثيك سريع الجفاف مناسب لجميع التطبيقات على المعادن والخشب والجدران يصلح للتطبيق على الاسطح الداخليه والخارجيه",
+     "line": "Latico",
+     "img": "assets/products/711.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0152_711-2.5.png"
+    }
+   ]
+  },
+  {
+   "id": "building-plastic-paints",
+   "group": "building",
+   "ar": "دهانات البلاستيك",
+   "en": "Plastic (Emulsion) Paints",
+   "intro": "",
+   "products": [
+    {
+     "code": "751",
+     "ar": "سيلر",
+     "desc": "طلاء أساس من الأكريليك المعدل ، مصمم خصيصًا للمعالجة المسبقة للأسطح الداخلية للخرسانة والجص والطوب والأحجار.",
+     "line": "Kapci",
+     "img": "assets/products/751.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0169_751.png"
+    },
+    {
+     "code": "756",
+     "ar": "سيلر",
+     "desc": "عبارة عن مادة مانعة للتسرب من الأكريليك تنقلها المياه مصممة خصيصًا للتطبيق على الخرسانة والجص والطوب والأحجار. فمن المستحسن…",
+     "line": "Kapci",
+     "img": "assets/products/756.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0027_756.png"
+    },
+    {
+     "code": "750",
+     "ar": "معجون كابسي",
+     "desc": "عبارة عن معجون مائي يعتمد على البوليمر المشترك من الفينيل والاكريليك. يتم استخدامه للقضاء على السطح ...",
+     "line": "Kapci",
+     "img": "assets/products/750.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0179_750-2.png"
+    },
+    {
+     "code": "545",
+     "ar": "معجون إليجانت",
+     "desc": "عبارة عن معجون مائي يعتمد على البوليمر المشترك من الفينيل والاكريليك. يتم استخدامه للتخلص من عيوب السطح على القديم والجديد ، ...",
+     "line": "Kapci",
+     "img": "assets/products/545.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/545.png"
+    },
+    {
+     "code": "749",
+     "ar": "معجون كابسي",
+     "desc": "عبارة عن معجون مائي يعتمد على مستحلب الأكريليك المعدل. يتم استخدامه للتخلص من عيوب السطح على مدى ...",
+     "line": "Kapci",
+     "img": "assets/products/749.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0025_749-2.png"
+    },
+    {
+     "code": "790",
+     "ar": "كراك فيلر",
+     "desc": "هو معجون عالي الجودة يعتمد على بوليمر أكريليك مشترك مطور خصيصًا للاستخدام في الداخل والخارج. إنها..",
+     "line": "Kapci",
+     "img": "assets/products/790.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0015_790.png"
+    },
+    {
+     "code": "740",
+     "ar": "كابسي بلاست",
+     "desc": "هو طلاء علوي اقتصادي غير لامع يعتمد على مستحلب الأكريليك المعدل. يتم استخدامه للتطبيق الداخلي ، ...",
+     "line": "Kapci",
+     "img": "assets/products/740.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0176_740.png"
+    },
+    {
+     "code": "X1",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع عالي الجودة يعتمد على مستحلب الأكريليك المعدل مع قابلية ممتازة للغسيل وقوة إخفاء و ...",
+     "line": "Kapci",
+     "img": "assets/products/x1.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/729-X1-400x400-1.png"
+    },
+    {
+     "code": "733",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع يعتمد على مستحلب الأكريليك المعدل. يتم استخدامه للداخلية ...",
+     "line": "Kapci",
+     "img": "assets/products/733.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/733.png"
+    },
+    {
+     "code": "735",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع يعتمد على مستحلب الأكريليك المعدل. يتم استخدامه للداخلية ...",
+     "line": "Kapci",
+     "img": "assets/products/735.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/735.png"
+    },
+    {
+     "code": "736",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع يعتمد على مستحلب الأكريليك المعدل. يتم استخدامه للداخلية ...",
+     "line": "Kapci",
+     "img": "assets/products/736.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/736.png"
+    },
+    {
+     "code": "555",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع يعتمد على مستحلب الأكريليك المعدل مع قوة إخفاء جيدة وبياض ...",
+     "line": "Kapci",
+     "img": "assets/products/555.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0180_555.png"
+    },
+    {
+     "code": "730",
+     "ar": "كابسي كوت مط",
+     "desc": "هو طلاء علوي غير لامع عالي الجودة يعتمد على مستحلب الأكريليك المعدل مع قابلية ممتازة للغسيل ، ...",
+     "line": "Kapci",
+     "img": "assets/products/730.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/top-730.png"
+    },
+    {
+     "code": "728",
+     "ar": "إكسيتيريور",
+     "desc": "إكسيتيريور سوبر برايت بلاستيك مط عالي الجوده ذو مظهر جذاب للدهانات الداخليه والخاريجيه مصنع من..",
+     "line": "Kapci",
+     "img": "assets/products/728.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0168_728.png"
+    },
+    {
+     "code": "725",
+     "ar": "ستايلش- ربع لامع",
+     "desc": "دهان بلاستيك ربع لامع للدهانات الخاريجيه والداخليه مصنع من الاكريلك المعالج",
+     "line": "Kapci",
+     "img": "assets/products/725.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0132_725-10L.png"
+    },
+    {
+     "code": "720",
+     "ar": "سيلك",
+     "desc": "بلاستيك نص لامع عالي الجوده ذو مظهر جذاب للدهانات الخاريجيه والداخليه مصنع من الاكريليك المعالج",
+     "line": "Kapci",
+     "img": "assets/products/720.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0170_720.png"
+    },
+    {
+     "code": "710",
+     "ar": "يريما لامع",
+     "desc": "دهان ابيض مائي عالي الجوده شديد اللمعه ذو مظهر جذاب للدهانات الخاريجيه والداخليه",
+     "line": "Kapci",
+     "img": "assets/products/710.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0174_710.png"
+    },
+    {
+     "code": "752",
+     "ar": "كابسي كلير",
+     "desc": "ورنيش مائي مصنع من الاكريليك المعالج للأسطح الداخليه والخاريجيه",
+     "line": "Kapci",
+     "img": "assets/products/752.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0162_752-4L.png"
+    },
+    {
+     "code": "Kapci Colorants",
+     "ar": "ألوان كابسي",
+     "desc": "هي معاجين صبغية مركزة للاستخدامات الزخرفية العالمية ، يمكن مزجها مع دهانات الكيد كابسي أو دهانات كابسي.",
+     "line": "Kapci",
+     "img": "assets/products/kapci-colorants.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0021_uc.png"
+    },
+    {
+     "code": "717",
+     "ar": "سيلر",
+     "desc": "بادئ من الاكريلك صنع خصيصا للمعالجه المبدئيه للاسطح الإسمنتيه والحجريه والجبسيه الداخليه",
+     "line": "Latico",
+     "img": "assets/products/717.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0185_717.png"
+    },
+    {
+     "code": "727",
+     "ar": "معجون لاتيكو",
+     "desc": "معجون بلاستيك داخلي لمعالجه الاسطح الاسمنتيه وتجهيزها للدهان مصنع من الفينيل أكريلك المعالج ناصع البياض",
+     "line": "Latico",
+     "img": "assets/products/727.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0184_727.png"
+    },
+    {
+     "code": "737",
+     "ar": "بلاستيك مط",
+     "desc": "هو بلاستيك مط مصنع من الأكريلك المعالج ناصع البياض للدهانات الداخليه",
+     "line": "Latico",
+     "img": "assets/products/737.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0182_737.png"
+    },
+    {
+     "code": "767",
+     "ar": "سيلك",
+     "desc": "هو بلاستيك نص لامع عالي الجوده ذو مظهر جذاب مناسب للدهانات الخارجيه والداخليه مصنع من الأكريلك المعالج",
+     "line": "Latico",
+     "img": "assets/products/767.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0183_767.png"
+    },
+    {
+     "code": "757",
+     "ar": "ورنيش لاتيكو",
+     "desc": "هو ورنيش مائي مصنع من الأكريليك المعالج مناسب للاسطح الداخليه والخارجيه",
+     "line": "Latico",
+     "img": "assets/products/757.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0186_757.png"
+    },
+    {
+     "code": "Latico Colorants",
+     "ar": "ألوان كابسي - Universal colorants",
+     "desc": "Super Latico Colorants are universal colorants designed for use in Latico mixing system.",
+     "line": "Latico",
+     "img": "assets/products/latico-colorants.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0135_ملونات-7.png"
+    }
+   ]
+  },
+  {
+   "id": "building-special-effects",
+   "group": "building",
+   "ar": "تأثيرات خاصة",
+   "en": "Special Effects",
+   "intro": "",
+   "products": [
+    {
+     "code": "780",
+     "ar": "رفلكت",
+     "desc": "بلاستيك ميتالك مصنع من الاكريلك عالي الجوده مع إضافات خاصه لاصغاء المظهر الميتالك الجذاب على الاسطح الداخليه ويتمتع بصلابه وألوان جذابه",
+     "line": "Kapci",
+     "img": "assets/products/780.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0160_ريفليكت.png"
+    },
+    {
+     "code": "784",
+     "ar": "ساندي",
+     "desc": "منتج ديكوري خاص ذو اساس مائي مصنع من الاكريلك عالي الجوده مع اضافات زجاجيه يمكن من خلاله الحصول على اشكال زخرفيه جذابه ذات طابع لؤلؤي",
+     "line": "Kapci",
+     "img": "assets/products/784.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0154_784.png"
+    },
+    {
+     "code": "785",
+     "ar": "أكوا بيرل",
+     "desc": "منتج ديكوري ذو خواص مائيه لاضافه مظهر لؤلؤي جذاب للاسطح الداخليه ويمكن استخدامه بعده ألوان وأشكال لا محدوده",
+     "line": "Kapci",
+     "img": "assets/products/785.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0013_اكوا-بريل.png"
+    },
+    {
+     "code": "786",
+     "ar": "قطيفه",
+     "desc": "منتج ذو اساس مائي صمم لاضافه المظهر القطيفه الجذاب على الاسطح الداخليه",
+     "line": "Kapci",
+     "img": "assets/products/786.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0158_قطيفة.png"
+    },
+    {
+     "code": "787",
+     "ar": "ماربل أنتيكا",
+     "desc": "معجون ذو اساس مائي مصنع خصيصا لاعطاء الشكل الرخامي الجذاب فيحمل ذوقا رفيعا للديكورات الداخليه",
+     "line": "Kapci",
+     "img": "assets/products/787.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0019_ماربل-انتيكا.png"
+    },
+    {
+     "code": "788",
+     "ar": "سبونج",
+     "desc": "دهان بطئ الجفاف عالي الجوده يستخدم لاعطاءتأثير زخرفي جذاب يختلف باختلاف طريقه التطبيق والتصميم ويأتي بألوان مختلفه تلبي رغبات العملاء",
+     "line": "Kapci",
+     "img": "assets/products/788.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/788-2.png"
+    },
+    {
+     "code": "789",
+     "ar": "جرانيوليت",
+     "desc": "منتج ذو اساس مائي صمم خصيصا لاضافه مظهر الجرانيت الجذاب على الاسطح الداخليه والخاريجيه",
+     "line": "Kapci",
+     "img": "assets/products/789.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0012_جرانيوليت.png"
+    },
+    {
+     "code": "795",
+     "ar": "شاموازيت",
+     "desc": "منتج ذو اساس مائي صمم خصيصا لاضافه مظهر القطيفه او الشمواه الجذاب على الاسطح الداخليه",
+     "line": "Kapci",
+     "img": "assets/products/795.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0018_795-شموازيت.png"
+    },
+    {
+     "code": "794",
+     "ar": "جينز",
+     "desc": "منتج ذو اساس مائي مصنع من الاكريلك عالي الجوده مع اضافات خاصه لاضافه مظهر الجينز الميتالك الجذاب على الاسطح الداخليه",
+     "line": "Kapci",
+     "img": "assets/products/794.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0155_جينز.png"
+    },
+    {
+     "code": "796",
+     "ar": "سواحيلي",
+     "desc": "منتج ديكوري ذو اساس مائي صمم خصيصا لاضافه مظهر لؤلؤي جذاب للاسطح الداخليه ويعطي أبعاد مختلفه على المكان والحوائط",
+     "line": "Kapci",
+     "img": "assets/products/796.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0157_سواحيلي.png"
+    },
+    {
+     "code": "797",
+     "ar": "معجون أرت",
+     "desc": "هو معجون مائي مصمم لإعطاء تأثيرات مختلفة مثل الكتل الفرعونية أو أي تأثير آخر غير تقليدي وفقًا لـ ...",
+     "line": "Kapci",
+     "img": "assets/products/797.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0156_ارت-بتي.png"
+    },
+    {
+     "code": "799",
+     "ar": "أكوا سبونج",
+     "desc": "منتج ذو اساس مائي صمم خصيصا لاعطاء أشكال زخرفيه جذابه بتأثيرات متعدده فوق الاسطح الداخليه",
+     "line": "Kapci",
+     "img": "assets/products/799.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0181_799.png"
+    },
+    {
+     "code": "7010",
+     "ar": "تكس",
+     "desc": "دهان زخرافي ناعم مصنع من الأكريلك عالي الجوده مع إضافات مانعه للتشقق للاستخدام الخارجي",
+     "line": "Kapci",
+     "img": "assets/products/7010.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0177_7010.png"
+    }
+   ]
+  },
+  {
+   "id": "building-marble",
+   "group": "building",
+   "ar": "ماربل",
+   "en": "Marble Adhesives",
+   "intro": "",
+   "products": [
+    {
+     "code": "4000",
+     "ar": "لاصق رخام",
+     "desc": "هو معجون بولي إستر لاصق للرخام يجف بالمصلب للوصلات الرخاميه والتطبيقات المعماريه",
+     "line": "Kapci",
+     "img": "assets/products/4000.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/Untitled-2_0119_4000.png"
+    },
+    {
+     "code": "4100",
+     "ar": "لاصق رخام سائل",
+     "desc": "هو معجون بولي إستر لاصق للرخام يجف بالمصلب للوصلات الرخاميه والتطبيقات المعماريه",
+     "line": "Kapci",
+     "img": "assets/products/4100.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2023/03/4100.png"
+    },
+    {
+     "code": "3000",
+     "ar": "لاصق رخام",
+     "desc": "هو معجون بولي إستر لاصق للرخام يجف بالمصلب للوصلات الرخاميه والتطبيقات المعماريه",
+     "line": "Latico",
+     "img": "assets/products/3000.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/10/3000-1.png"
+    }
+   ]
+  },
+  {
+   "id": "resins",
+   "group": "industrial",
+   "ar": "الرزين",
+   "en": "Resins",
+   "intro": "تنتج الشركة مجموعة من الريزينات وخصوصا ريزينات الالكيد التي تدخل في أنواع عديده من الدهانات بالطريقة والنسبة التي تناسب الاحتياجات والمتطلبات من هذه الدهانات",
+   "products": [
+    {
+     "code": "1300",
+     "ar": "Back-up Polyester Resin",
+     "desc": "هو رزين بولي إستر متوسط اللزوجة – أو ثوفيثاليك غير مشبع وغير معجل. يستخدم للخلط بسهولة...",
+     "line": "Kapci",
+     "img": "assets/products/1300.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0000_RH-1300.png"
+    },
+    {
+     "code": "1400",
+     "ar": "Back-up Polyester Resin",
+     "desc": "هو رزين بولي إستر متوسط اللزوجة – أو ثوفيثاليك غير مشبع وغير معجل. يستخدم للخلط بسهولة...",
+     "line": "Kapci",
+     "img": "assets/products/1400.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0010_RH-1400.png"
+    },
+    {
+     "code": "1450",
+     "ar": "Back-up Polyester Resin",
+     "desc": "هو رزين بولي إستر متوسط اللزوجة – أو ثوفيثاليك غير مشبع وغير معجل. يستخدم للخلط بسهولة...",
+     "line": "Kapci",
+     "img": "assets/products/1450.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0009_RH-1450.png"
+    },
+    {
+     "code": "1500",
+     "ar": "Back-up Polyester Resin",
+     "desc": "هو رزين بولي إستر متوسط اللزوجة – أو ثوفيثاليك غير مشبع وغير معجل. يستخدم للخلط بسهولة...",
+     "line": "Kapci",
+     "img": "assets/products/1500.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0008_RH-1500.png"
+    },
+    {
+     "code": "KRLO – 100/70WS",
+     "ar": "Alkyd resin",
+     "desc": "هو رزين الكيد زيتي طويل السلسلة يجف بالهواء يستخدم أنواع كثيرة من الدهانات والورنيشات...",
+     "line": "Kapci",
+     "img": "assets/products/krlo-100-70ws.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0004_KRLO-100-Alkyd-Resin.png"
+    },
+    {
+     "code": "KRLO – 200/70WS",
+     "ar": "Alkyd resin",
+     "desc": "هو رزين الكيد زيتي طويل السلسلة يجف بالهواء يستخدم أنواع كثيرة من الدهانات والورنيشات...",
+     "line": "Kapci",
+     "img": "assets/products/krlo-200-70ws.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0003_KRLO-200-Alkyd-Resin.png"
+    },
+    {
+     "code": "KRMO – 100/60WS",
+     "ar": "Alkyd resin",
+     "desc": "هو رزين الكيد زيتي طويل السلسلة يجف بالهواء يستخدم أنواع كثيرة من الدهانات والورنيشات...",
+     "line": "Kapci",
+     "img": "assets/products/krmo-100-60ws.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0005_100-Alkyd-Resin.png"
+    },
+    {
+     "code": "KRSN – 100/70X",
+     "ar": "Alkyd resin",
+     "desc": "هو رزين ألكيد قصير السلسلة زيتي غير قابل للإصفرار يجف بالهواء يستخدم في تصنيع الدهانات النتروسيليلوز",
+     "line": "Kapci",
+     "img": "assets/products/krsn-100-70x.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0001_KRSN-100-Alkyd-Resin.png"
+    },
+    {
+     "code": "2600",
+     "ar": "Solid Surface Casting",
+     "desc": "هو رزين عالي الجودة غير معجل من الأيزوفيثالك نيوبنتايل جلايكول بولي إستر الغير مشبع...",
+     "line": "Kapci",
+     "img": "assets/products/2600-2.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0007_RH-2600.png"
+    },
+    {
+     "code": "RH 2601",
+     "ar": "Solid Surface Casting",
+     "desc": "هو رزين عالي الجودة غير معجل من الأيزوفيثالك نيوبنتايل جلايكول بولي إستر الغير مشبع...",
+     "line": "Kapci",
+     "img": "assets/products/rh-2601.png",
+     "img_src": "https://kapci.com/wp-content/uploads/2022/12/Untitled-1_0006_RH-2601.png"
+    }
+   ]
+  }
+ ]
+}
