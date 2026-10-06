@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://samira-belal.github.io/abbasy-paints/sitemap.xml
+Sitemap: https://abbasypaints.com/sitemap.xml
