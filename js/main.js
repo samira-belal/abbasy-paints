@@ -203,6 +203,18 @@
     }
     return best;
   }
+  /* nearest NCS shade (approximate atlas from js/ncs.js), same CIELAB distance */
+  const NCS = (window.NCS_COLORS || '').split(';').filter(Boolean).map(e => { const [code, hx] = e.split(','); const hex = '#' + hx; return { code, hex, lab: rgbToLab(hexToRgb(hex)) }; });
+  function nearestNcs(rgb) {
+    if (!NCS.length) return null;
+    const L = rgbToLab(rgb);
+    let best = null, bd = Infinity;
+    for (const r of NCS) {
+      const d = (L[0] - r.lab[0]) ** 2 + (L[1] - r.lab[1]) ** 2 + (L[2] - r.lab[2]) ** 2;
+      if (d < bd) { bd = d; best = r; }
+    }
+    return best;
+  }
 
   /* CSS-only splash when WebGL is unavailable */
   function cssSplash(x, y, color) {
@@ -231,7 +243,7 @@
   const hue = $('#hue'), sat = $('#sat'), lit = $('#lit');
   const blobPath = $('#blobPath'), glowPath = $('#blobGlowPath'), shinePath = $('#blobShinePath');
   const stops = [$('#bs0'), $('#bs1'), $('#bs2')];
-  const ralOut = $('#ralOut'), ralName = $('#ralName');
+  const ralOut = $('#ralOut'), ralName = $('#ralName'), ncsOut = $('#ncsOut');
   const hexOut = $('#hexOut'), rgbOut = $('#rgbOut'), ask = $('#askColor'), splashBtn = $('#splash');
   let labRgb = [215, 35, 47];
 
@@ -251,12 +263,17 @@
       ralOut.style.setProperty('--ral', ral ? ral.hex : 'transparent');
     }
     if (ralName) ralName.textContent = ral ? ral.name : '';
+    const ncs = nearestNcs(labRgb);
+    if (ncsOut) {
+      ncsOut.textContent = ncs ? `NCS S ${ncs.code}` : '';
+      ncsOut.style.setProperty('--ral', ncs ? ncs.hex : 'transparent');
+    }
     root.style.setProperty('--lab', hex);
     const lum = (0.299 * labRgb[0] + 0.587 * labRgb[1] + 0.114 * labRgb[2]) / 255;
     root.style.setProperty('--lab-ink', lum > 0.55 ? '#10121f' : '#ffffff');
     sat.style.setProperty('--track', `linear-gradient(to left, hsl(${h} 0% ${l}%), hsl(${h} 100% ${l}%))`);
     lit.style.setProperty('--track', `linear-gradient(to left, hsl(${h} ${s}% 8%), hsl(${h} ${s}% 50%), hsl(${h} ${s}% 92%))`);
-    ask.dataset.waText = ral ? `أهلاً، عايز اللون ده: RAL ${ral.code} (${ral.name}) — ${hex}` : `أهلاً، عايز اللون ده: ${hex}`;
+    ask.dataset.waText = `أهلاً، عايز اللون ده: ${[ral && `RAL ${ral.code} (${ral.name})`, ncs && `NCS S ${ncs.code}`, hex].filter(Boolean).join(' — ')}`;
     $$('.swatch').forEach(b => b.setAttribute('aria-pressed', b.dataset.hex === hex ? 'true' : 'false'));
   }
   const swWrap = $('#swatches');

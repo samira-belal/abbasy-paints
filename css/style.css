@@ -638,3 +638,6 @@ button.cat-name:hover { color: var(--yellow); }
 .vid-card b { font-size: 16px; padding: 0 4px; }
 .vid-card small { color: var(--muted); padding: 0 4px; }
 @media (max-width: 760px) { .app-card { grid-template-columns: 1fr; } }
+
+.lab-code .ncs-chip { font-size: 18px; letter-spacing: .04em; margin: 2px 0 4px; }
+.lab-code .ncs-chip::before { width: 14px; height: 14px; border-radius: 4px; }
