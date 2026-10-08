@@ -274,7 +274,7 @@ main, .footer { position: relative; z-index: 2; }
 .swatch:hover { transform: translateY(-3px) scale(1.12); }
 .swatch[aria-pressed="true"] { box-shadow: inset 0 -6px 10px rgba(0,0,0,.25), inset 0 4px 8px rgba(255,255,255,.35), 0 0 0 3px #fff; }
 .lab-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-#splash { background: var(--lab); animation: none; color: var(--lab-ink, #111); box-shadow: 0 10px 34px color-mix(in srgb, var(--lab) 60%, transparent); }
+#splash { background: var(--lab); animation: none; color: var(--lab-ink, #111); box-shadow: inset 0 0 0 1.5px rgba(255,255,255,.35), 0 10px 34px color-mix(in srgb, var(--lab) 60%, transparent); }
 
 .css-splash { position: fixed; z-index: 80; pointer-events: none; width: 20px; height: 20px; border-radius: 50%; transform: translate(-50%, -50%); animation: cssSplash 1.1s cubic-bezier(.1,.7,.3,1) forwards; mix-blend-mode: screen; filter: blur(4px); }
 @keyframes cssSplash { to { transform: translate(-50%, -50%) scale(40); opacity: 0; } }
