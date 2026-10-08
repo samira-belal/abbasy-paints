@@ -694,3 +694,16 @@
     img.addEventListener('error', hide);
   });
 })();
+
+/* analytics: count the clicks that matter (calls, WhatsApp, PDFs, videos, app stores) — no-op until GA_ID is set */
+(() => {
+  const kind = href => /wa\.me|whatsapp/.test(href) ? 'whatsapp_click' : /^tel:/.test(href) ? 'call_click'
+    : /\.pdf($|\?)/i.test(href) ? 'pdf_open' : /youtube\.com|youtu\.be/.test(href) ? 'video_open'
+    : /play\.google|apps\.apple/.test(href) ? 'app_store_click' : /google\.com\/maps/.test(href) ? 'map_open' : null;
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href]');
+    if (!a || typeof window.gtag !== 'function') return;
+    const ev = kind(a.href);
+    if (ev) gtag('event', ev, { link_url: a.href, link_text: (a.textContent || '').trim().slice(0, 80) });
+  }, true);
+})();
