@@ -564,12 +564,12 @@
   const SHOTS = [
     ['nasr-night', 'واجهة فرع مدينة نصر بالليل'], ['showroom', 'من داخل معرض العباسي'], ['stock', 'أهرامات علب دهانات كابسي'],
     ['tagamoa', 'فرع التجمع الخامس بالليل'], ['wood-shelf', 'دهانات الأخشاب WS 250'], ['special', 'ركن Special Effects والدهانات الديكورية'],
-    ['nasr1', 'عربيات العباسي للدهانات'], ['palette', 'حائط الألوان Color Palette'], ['aisle', 'ممر المعرض'],
-    ['nasr0', 'فرع مدينة نصر'], ['showroom2', 'هرم دهانات المباني'], ['display', 'ركن كابسي في المعرض'], ['delivery', 'توصيل طلبية دهانات'],
-    ['tagamoa1', 'واجهة فرع التجمع'], ['special2', 'معرض الدهانات الديكورية'], ['nasr3', 'فرع مدينة نصر'], ['nasr4', 'فرع مدينة نصر بالنهار'],
+    ['nasr1', 'عربيات العباسي للدهانات'], ['palette', 'حائط الألوان Color Palette', 1], ['aisle', 'ممر المعرض'],
+    ['nasr0', 'فرع مدينة نصر'], ['showroom2', 'هرم دهانات المباني'], ['display', 'ركن كابسي في المعرض', 1], ['delivery', 'توصيل طلبية دهانات', 1],
+    ['tagamoa1', 'واجهة فرع التجمع'], ['special2', 'معرض الدهانات الديكورية', 1], ['nasr3', 'فرع مدينة نصر'], ['nasr4', 'فرع مدينة نصر بالنهار'],
   ];
   const track = $('#stripTrack');
-  const shotHTML = (s, i, dup) => `<button class="shot" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img data-src="assets/shop/${s[0]}.webp" alt="${dup ? '' : esc(s[1])}" decoding="async"></button>`;
+  const shotHTML = (s, i, dup) => `<button class="shot${s[2] ? ' tall' : ''}" type="button" data-shot="${i}" ${dup ? 'aria-hidden="true" tabindex="-1"' : ''}><img data-src="assets/shop/${s[0]}.webp" alt="${dup ? '' : esc(s[1])}" decoding="async"></button>`;
   track.innerHTML = SHOTS.map((s, i) => shotHTML(s, i, false)).join('') + SHOTS.map((s, i) => shotHTML(s, i, true)).join('');
   // load the strip's photos eagerly once the gallery is near (lazy-loading breaks inside a moving overflow strip)
   const loadStrip = () => $$('img[data-src]', track).forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
