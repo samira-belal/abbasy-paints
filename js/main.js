@@ -361,6 +361,17 @@
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCall(); });
 
+  /* PDF datasheets (linked straight to kapci.com, not rehosted) */
+  const PDF_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V9h5.5L13 3.5zM8 13v5h1.3v-1.6h.8a1.7 1.7 0 0 0 0-3.4H8zm1.3 1.1h.8a.6.6 0 0 1 0 1.2h-.8v-1.2zM12.6 13v5h1.6a2.5 2.5 0 0 0 0-5h-1.6zm1.3 1.1h.3a1.4 1.4 0 0 1 0 2.8h-.3v-2.8zM17.2 13v5h1.3v-2h1.7v-1.1h-1.7v-.8h1.9V13h-3.2z"/></svg>';
+  const DOC_LBL = { ar: 'عربي', en: 'English', es: 'Español', sds: 'MSDS' };
+  const DOC_TITLE = { ar: 'النشرة الفنية بالعربي', en: 'Technical data sheet (English)', es: 'Ficha técnica (Español)', sds: 'بيانات السلامة MSDS' };
+  function docLinks(docs, long) {
+    return docs.map(d => {
+      const lbl = (long && d.k === 'sds' ? 'بيانات السلامة MSDS' : DOC_LBL[d.k] || 'PDF') + (d.n ? ' · ' + d.n : '');
+      return `<a class="doc doc-${esc(d.k)}" href="${esc(d.u)}" target="_blank" rel="noopener" title="${esc(DOC_TITLE[d.k] || 'PDF')}${d.n ? ' — ' + esc(d.n) : ''}" lang="${d.k === 'sds' ? 'en' : esc(d.k)}">${esc(lbl)}</a>`;
+    }).join('');
+  }
+
   /* ---------------- products ---------------- */
   const GROUPS = {
     car: { ar: 'دهانات السيارات', c: '#D7232F' },
@@ -412,6 +423,7 @@
         items.push({
           code: p.code || '', ar: p.ar || p.en || p.code || '', desc: p.desc || '', img: imgSrc(p.img),
           group: g, cat: catId, catAr: cat.ar || cat.en || '', color: gi.c, line: p.line || '', prima: isPrima(p),
+          pdf: p.pdf || '', docs: Array.isArray(p.docs) ? p.docs : [],
           key: norm([p.code, p.ar, p.en, p.desc, cat.ar, cat.en].join(' ')),
         });
       });
@@ -522,6 +534,54 @@
     state.group = 'prima'; state.cat = null; state.q = ''; search.value = ''; refresh();
   }));
 
+  // catalogues section: every product PDF grouped by brand (+ extra kapci.com sheets)
+  const catBox = $('#catBrands');
+  if (catBox && DATA) {
+    const BRANDS = [
+      ['Prima', 'PRIMA', '#FDC218', 'نظام بريما — الأحدث'], ['Kapci', 'KAPCI', '#D7232F', 'كابسي'],
+      ['Dima', 'DIMA', '#43B6D9', 'ديما — Low VOC'], ['Latico', 'LATICO', '#3E9B47', 'لاتيكو'], ['Refinix', 'REFINIX', '#F28C28', 'ريفينكس'],
+    ];
+    const brandOf = l => { l = String(l || '').trim().toLowerCase(); const b = BRANDS.find(b => l === b[0].toLowerCase() || l.startsWith(b[0].toLowerCase() + ' ')); return b ? b[0] : 'Kapci'; };
+    const urls = new Set();
+    const rowHTML = (code, name, docs, i, en) => {
+      docs.forEach(d => urls.add(d.u));
+      const nm = i != null ? `<button class="cat-name" type="button" data-i="${i}">${esc(name)}</button>` : `<span class="cat-name" lang="${en ? 'en' : 'ar'}" dir="auto">${esc(name)}</span>`;
+      return `<li class="cat-row" data-k="${esc(norm(code + ' ' + name + ' ' + (en || '')))}">${code ? `<span class="cat-code">${esc(code)}</span>` : ''}${nm}<span class="cat-links">${docLinks(docs)}</span></li>`;
+    };
+    const extra = Array.isArray(DATA.extraDocs) ? DATA.extraDocs : [];
+    catBox.innerHTML = BRANDS.map(([b, name, c, ar], bi) => {
+      const mine = items.filter(it => it.docs.length && brandOf(it.line) === b);
+      const subs = groupOrder.map(g => [GROUPS[g].ar, mine.filter(it => it.group === g)]).filter(x => x[1].length);
+      const ex = extra.filter(e => (e.brand || 'Kapci') === b && Array.isArray(e.docs) && e.docs.length);
+      const n = mine.length + ex.length;
+      if (!n) return '';
+      return `<details class="cat-brand glass" style="--bc:${c}"${bi === 0 ? ' open' : ''}>
+        <summary><b>${name}</b><span class="cat-ar">${ar}</span><span class="cat-n">${n} منتج</span></summary>
+        <div class="cat-body">${subs.map(([t, list]) => `<h4>${esc(t)}</h4><ul class="cat-list">${list.map(it => rowHTML(it.code, it.ar, it.docs, it._idx)).join('')}</ul>`).join('')}
+        ${ex.length ? `<h4>نشرات إضافية من كابسي</h4><ul class="cat-list">${ex.map(e => rowHTML('', String(e.title || '').replace(/^(kapci|prima|latico|refinix)\s+/i, ''), e.docs, null, e.title)).join('')}</ul>` : ''}</div></details>`;
+    }).join('');
+    const catCount = $('#catCount'), catSearch = $('#catSearch');
+    const total = `${urls.size} ملف PDF من موقع كابسي`;
+    catCount.textContent = total;
+    catBox.addEventListener('click', e => { const b = e.target.closest('.cat-name[data-i]'); if (b) openProduct(items[+b.dataset.i]); });
+    let ct;
+    catSearch.addEventListener('input', () => {
+      clearTimeout(ct);
+      ct = setTimeout(() => {
+        const words = norm(catSearch.value).split(' ').filter(Boolean);
+        let hits = 0;
+        $$('.cat-brand', catBox).forEach((det, bi) => {
+          let n = 0;
+          $$('.cat-row', det).forEach(r => { const ok = words.every(w => r.dataset.k.includes(w)); r.hidden = !ok; if (ok) n++; });
+          $$('.cat-list', det).forEach(ul => { const h = ul.previousElementSibling; const any = $$('.cat-row:not([hidden])', ul).length > 0; ul.hidden = !any; if (h) h.hidden = !any; });
+          det.hidden = !n; det.open = words.length ? n > 0 : bi === 0;
+          hits += n;
+        });
+        catCount.textContent = words.length ? (hits ? `${hits} نتيجة` : 'مفيش نتيجة.. جرّب كود تاني أو اسألنا على واتساب') : total;
+      }, 140);
+    });
+  }
+
   // world cards -> filter products
   const WORLD = {
     car: { group: 'car' }, building: { group: 'building' }, wood: { group: 'wood' },
@@ -553,6 +613,10 @@
     $('#pmCode').textContent = it.code;
     $('#pmCode').hidden = !it.code;
     $('#pmDesc').textContent = it.desc;
+    const pmDocs = $('#pmDocs');
+    pmDocs.innerHTML = it.pdf ? `<a class="btn btn-ghost btn-small pm-pdf" href="${esc(it.pdf)}" target="_blank" rel="noopener">${PDF_ICON}<span>الكتالوج / النشرة الفنية PDF</span></a>
+      ${it.docs.length > 1 ? `<div class="doc-links">${docLinks(it.docs, true)}</div>` : ''}` : '';
+    pmDocs.hidden = !it.pdf;
     $('#pmAsk').dataset.waText = `أهلاً، عايز أسأل عن منتج كابسي ${it.code ? it.code + ' - ' : ''}${it.ar}`;
     pm.hidden = false; document.body.style.overflow = 'hidden';
     $('.lb-close', pm).focus();

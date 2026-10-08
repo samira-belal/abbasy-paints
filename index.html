@@ -55,6 +55,7 @@
       <a href="#worlds">عوالم كابسي</a>
       <a href="#lab">معمل الألوان</a>
       <a href="#products">المنتجات</a>
+      <a href="#catalogs">الكتالوجات</a>
       <a href="#gallery">المعرض</a>
       <a href="#branches">الفروع</a>
     </nav>
@@ -270,6 +271,25 @@
       </div>
     </section>
 
+    <!-- CATALOGUES (PDFs hosted on kapci.com) -->
+    <section class="section catalogs" id="catalogs">
+      <div class="container">
+        <div class="head reveal">
+          <p class="kicker">كتالوجات كابسي PDF</p>
+          <h2 class="title">كتالوجات كابسي <span class="grad">والنشرات الفنية</span></h2>
+          <p class="lead">النشرة الفنية (TDS) وبيانات السلامة (MSDS) لكل منتج — عربي وإنجليزي — مقسّمة حسب العلامة. الملفات بتفتح مباشرة من موقع كابسي الرسمي.</p>
+        </div>
+        <div class="cat-tools glass reveal">
+          <div class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"/></svg>
+            <input type="search" id="catSearch" placeholder="دوّر على كتالوج بالاسم أو الكود…" aria-label="بحث في الكتالوجات">
+          </div>
+          <p class="cat-count" id="catCount" aria-live="polite"></p>
+        </div>
+        <div class="cat-brands" id="catBrands"></div>
+      </div>
+    </section>
+
     <!-- BRANDS -->
     <section class="section brands" id="brands">
       <div class="container">
@@ -410,6 +430,7 @@
         <h3 id="pmName"></h3>
         <b class="pm-code" id="pmCode"></b>
         <p id="pmDesc"></p>
+        <div class="pm-docs" id="pmDocs" hidden></div>
         <a class="btn btn-wa" id="pmAsk" data-wa target="_blank" rel="noopener" href="https://wa.me/201005645742"><span>اسأل عن المنتج ده</span></a>
       </div>
     </div>
