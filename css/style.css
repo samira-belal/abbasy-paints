@@ -603,3 +603,38 @@ button.cat-name:hover { color: var(--yellow); }
   .cat-links { grid-column: 1 / -1; }
   .cat-row:not(:has(.cat-code)) .cat-name { grid-column: 1 / -1; }
 }
+
+/* ---------- guides / colour book / app / videos ---------- */
+.sub-title { font-family: var(--display); font-weight: 400; font-size: clamp(24px, 3vw, 32px); margin: 44px 0 16px; }
+.sub-lead { color: var(--muted); margin: -6px 0 16px; }
+.guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+.guide-card { display: flex; align-items: center; gap: 14px; padding: 16px; color: var(--ink); text-decoration: none; transition: transform .3s, border-color .3s; }
+.guide-card:hover { transform: translateY(-3px); border-color: var(--c); }
+.guide-ico { flex: none; width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; background: var(--c); }
+.guide-ico svg { width: 28px; height: 28px; fill: #10121f; }
+.guide-txt { display: grid; gap: 2px; min-width: 0; }
+.guide-txt small { color: var(--c); font-size: 13px; }
+.guide-txt b { font-size: 16px; line-height: 1.4; }
+.guide-txt em { font-style: normal; color: var(--muted); font-size: 13px; }
+.cb-strip { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px max(16px, calc((100vw - 1200px) / 2)) 18px; scrollbar-width: thin; }
+.cb-shot { flex: none; width: clamp(220px, 28vw, 320px); aspect-ratio: 1; border-radius: 16px; overflow: hidden; scroll-snap-align: center; background: #fff; box-shadow: 0 16px 36px rgba(0,0,0,.45); transition: transform .3s; }
+.cb-shot:hover { transform: translateY(-4px); }
+.cb-shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.app-card { margin-top: 44px; padding: clamp(18px, 3vw, 32px); display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; align-items: center; }
+.app-txt h3 { font-family: var(--display); font-weight: 400; font-size: clamp(24px, 3vw, 34px); margin: 4px 0 10px; }
+.app-txt p { color: var(--muted); margin: 0 0 12px; }
+.app-feats { list-style: none; padding: 0; margin: 0 0 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+.app-feats li { padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line); font-size: 14px; }
+.app-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.app-video, .vid-thumb { position: relative; display: block; border-radius: 16px; overflow: hidden; aspect-ratio: 16 / 9; background: #000; }
+.app-video img, .vid-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .85; transition: opacity .3s, transform .5s; }
+.app-video:hover img, .vid-card:hover .vid-thumb img { opacity: 1; transform: scale(1.04); }
+.vid-play { position: absolute; inset: 0; margin: auto; width: 60px; height: 60px; border-radius: 50%; display: grid; place-items: center; background: rgba(215,35,47,.92); box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.vid-play svg { width: 28px; height: 28px; fill: #fff; }
+.vid-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 14px; }
+.vid-card { display: grid; gap: 6px; padding: 10px 10px 14px; color: var(--ink); text-decoration: none; transition: transform .3s, border-color .3s; }
+.vid-card:hover { transform: translateY(-3px); border-color: var(--c); }
+.vid-card .vid-thumb { background: linear-gradient(135deg, var(--c), #10121f); }
+.vid-card b { font-size: 16px; padding: 0 4px; }
+.vid-card small { color: var(--muted); padding: 0 4px; }
+@media (max-width: 760px) { .app-card { grid-template-columns: 1fr; } }
